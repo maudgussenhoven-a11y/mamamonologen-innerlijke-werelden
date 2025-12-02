@@ -1,3 +1,5 @@
+import aboutPhoto from "@/assets/about-photo.jpg";
+
 const About = () => {
   return (
     <section id="about" className="py-24 bg-gradient-subtle">
@@ -28,14 +30,12 @@ const About = () => {
           </div>
 
           <div className="relative">
-            <div className="aspect-square rounded-3xl bg-gradient-warm shadow-medium overflow-hidden">
-              <div className="w-full h-full flex items-center justify-center text-primary-foreground p-8">
-                <div className="text-center space-y-4">
-                  <div className="text-6xl">🎭</div>
-                  <p className="text-xl font-semibold">Theater + Psychologie</p>
-                  <p className="text-sm opacity-90">Innerlijke stemmen krijgen een podium</p>
-                </div>
-              </div>
+            <div className="aspect-square rounded-3xl shadow-medium overflow-hidden">
+              <img 
+                src={aboutPhoto} 
+                alt="Mamamonologen portret" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
