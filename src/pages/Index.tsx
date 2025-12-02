@@ -3,7 +3,7 @@ import About from "@/components/About";
 import Themes from "@/components/Themes";
 import ForWho from "@/components/ForWho";
 import Maker from "@/components/Maker";
-import Contact from "@/components/Contact";
+import Products from "@/components/Products";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -14,7 +14,7 @@ const Index = () => {
       <Themes />
       <ForWho />
       <Maker />
-      <Contact />
+      <Products />
       <Footer />
     </div>
   );

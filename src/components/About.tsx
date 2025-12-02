@@ -61,6 +61,9 @@ const About = () => {
               De innerlijke stemmen, rollen en tegenstrijdigheden die hier worden onderzocht, zijn 
               <span className="font-semibold text-accent"> menselijk en universeel</span>.
             </p>
+            <blockquote className="text-2xl md:text-3xl italic text-primary font-light pt-6 mt-6 border-t border-border/30">
+              "Ik geloof dat wanneer we onze innerlijke stemmen durven te horen, we onszelf, elkaar en de wereld echt kunnen zien."
+            </blockquote>
           </div>
         </div>
       </div>
