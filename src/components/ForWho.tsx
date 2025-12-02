@@ -6,11 +6,6 @@ const ForWho = () => {
       gradient: "from-primary/20 to-primary/10"
     },
     {
-      title: "Zoekende zielen",
-      description: "Niet-ouders die nieuwsgierig zijn naar innerlijke stemmen en menselijke dynamieken",
-      gradient: "from-accent/20 to-accent/10"
-    },
-    {
       title: "Professionals",
       description: "In zorg, onderwijs, hulpverlening of welzijn die dieper willen begrijpen",
       gradient: "from-secondary/30 to-secondary/20"
@@ -41,7 +36,7 @@ const ForWho = () => {
           <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full mt-6" />
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {audiences.map((audience, index) => (
             <div
               key={index}

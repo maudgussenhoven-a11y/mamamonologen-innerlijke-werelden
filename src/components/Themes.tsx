@@ -1,19 +1,9 @@
 const Themes = () => {
   const themes = [
     {
-      title: "Innerlijke tegenstellingen",
+      title: "Polariteiten",
       description: "De verschillende stemmen in jezelf die soms met elkaar botsen",
       icon: "🌗"
-    },
-    {
-      title: "De druk om 'goed' te zijn",
-      description: "In alle lagen die je draagt, de constante balanceeract",
-      icon: "⚖️"
-    },
-    {
-      title: "Overbelasting & onzichtbare arbeid",
-      description: "De emotionele last die niemand ziet maar iedereen voelt",
-      icon: "💫"
     },
     {
       title: "De innerlijke criticus",
@@ -50,7 +40,7 @@ const Themes = () => {
           <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full mt-6" />
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {themes.map((theme, index) => (
             <div 
               key={index}
