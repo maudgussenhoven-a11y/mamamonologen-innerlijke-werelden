@@ -1,4 +1,4 @@
-import maudPortrait from "@/assets/maud-portrait.jpg";
+import maudPortrait from "@/assets/maud-photo.jpg";
 
 const Maker = () => {
   return (
