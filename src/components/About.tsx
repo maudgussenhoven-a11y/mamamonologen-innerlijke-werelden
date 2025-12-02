@@ -40,6 +40,13 @@ const About = () => {
           </div>
         </div>
 
+        {/* Experience description */}
+        <div className="mb-20 text-center max-w-4xl mx-auto">
+          <p className="text-xl md:text-2xl leading-relaxed text-foreground/90 italic">
+            Tijdens deze ochtend neem ik je mee op een reis door mijn innerlijke landschap - een uitnodiging om ook jouw eigen lagen te verkennen. We raken aan wat vaak onuitgesproken blijft, waar de universele donkere en lichtere kanten van het leven zichtbaar worden.
+          </p>
+        </div>
+
         {/* Why section */}
         <div className="bg-card rounded-3xl p-8 md:p-12 shadow-soft">
           <h3 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
