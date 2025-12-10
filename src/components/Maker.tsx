@@ -44,7 +44,7 @@ const Maker = () => {
               </p>
 
               <p>
-                Door haar achtergrond in theater en psychologie combineert ze de kracht van storytelling 
+                Door haar achtergrond in theater en voice dialogue combineert ze de kracht van storytelling 
                 met diepgaande innerlijke verkenning. Met Mamamonologen creëert ze een plek waar 
                 authenticiteit en kwetsbaarheid gevierd worden.
               </p>

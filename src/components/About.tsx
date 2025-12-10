@@ -43,7 +43,7 @@ const About = () => {
         {/* Experience description */}
         <div className="mb-20 text-center max-w-4xl mx-auto">
           <p className="text-xl md:text-2xl leading-relaxed text-foreground/90 italic">
-            Tijdens deze ochtend neem ik je mee op een reis door mijn innerlijke landschap - een uitnodiging om ook jouw eigen lagen te verkennen. We raken aan wat vaak onuitgesproken blijft, waar de universele donkere en lichtere kanten van het leven zichtbaar worden.
+            Tijdens deze voorstelling neem ik je mee op een reis door mijn innerlijke landschap - een uitnodiging om ook jouw eigen lagen te verkennen. We raken aan wat vaak onuitgesproken blijft, waar de universele donkere en lichtere kanten van het leven zichtbaar worden.
           </p>
         </div>
 
@@ -55,8 +55,7 @@ const About = () => {
           <div className="space-y-4 text-lg leading-relaxed text-foreground/90">
             <p>
               De binnenwereld van moeders is vaak <span className="font-semibold text-accent">onzichtbaar</span>. 
-              We worden geacht sterk, stabiel en liefdevol te zijn, terwijl we vanbinnen soms verscheurd, 
-              verdwaald, uitgeput of verlangend zijn.
+              We worden geacht sterk, stabiel en liefdevol te zijn en vooral veel van onszelf op te geven.
             </p>
             <p>
               Mamamonologen maakt deze verborgen lagen zichtbaar, niet om ze op te lossen, maar om ze te 
