@@ -2,17 +2,17 @@ const Themes = () => {
   const themes = [
     {
       title: "Polariteiten",
-      description: "De verschillende stemmen in jezelf die soms met elkaar botsen",
+      description: "De tegenstellende stemmen die in ons allemaal leven",
       icon: "🌗"
     },
     {
       title: "De innerlijke criticus",
-      description: "De stem die oordeelt, en de kinderstem die troost zoekt",
+      description: "Een harde kant die we allemaal kennen",
       icon: "🗣️"
     },
     {
       title: "Mythische dimensie",
-      description: "De archetypische kracht van zorg en verantwoordelijkheid",
+      description: "De archetypische kracht die allemaal in ons leeft",
       icon: "🌙"
     },
     {
