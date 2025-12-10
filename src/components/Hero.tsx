@@ -11,7 +11,7 @@ const Hero = () => {
           alt="Mamamonologen - Innerlijke stemmen van moederschap"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-background/70" />
       </div>
 
       {/* Content */}
