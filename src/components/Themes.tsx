@@ -2,23 +2,19 @@ const Themes = () => {
   const themes = [
     {
       title: "Polariteiten",
-      description: "De tegenstellende stemmen die in ons allemaal leven",
-      icon: "🌗"
+      description: "De tegenstellende stemmen die in ons allemaal leven"
     },
     {
       title: "De innerlijke criticus",
-      description: "Een harde kant die we allemaal kennen",
-      icon: "🗣️"
+      description: "Een harde kant die we allemaal kennen"
     },
     {
       title: "Mythische dimensie",
-      description: "De archetypische kracht die in ons allen leeft",
-      icon: "🌙"
+      description: "De archetypische kracht die in ons allen leeft"
     },
     {
       title: "Transformatie",
-      description: "Door bewustzijn en verbinding ontstaat verandering",
-      icon: "🦋"
+      description: "Door bewustzijn en verbinding ontstaat verandering"
     }
   ];
 
@@ -47,9 +43,6 @@ const Themes = () => {
               className="group bg-card rounded-2xl p-8 shadow-soft hover:shadow-medium transition-smooth border border-border/50 hover:border-primary/30"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">
-                {theme.icon}
-              </div>
               <h3 className="text-2xl font-semibold mb-3 text-foreground group-hover:text-primary transition-smooth">
                 {theme.title}
               </h3>
