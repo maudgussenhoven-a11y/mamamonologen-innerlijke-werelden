@@ -12,7 +12,7 @@ const Themes = () => {
     },
     {
       title: "Mythische dimensie",
-      description: "De archetypische kracht die allemaal in ons leeft",
+      description: "De archetypische kracht die in ons allen leeft",
       icon: "🌙"
     },
     {
