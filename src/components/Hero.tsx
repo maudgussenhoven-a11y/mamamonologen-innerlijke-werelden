@@ -16,15 +16,15 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-foreground animate-in fade-in slide-in-from-bottom-4 duration-1000">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-white drop-shadow-lg animate-in fade-in slide-in-from-bottom-4 duration-1000">
           Mamamonologen
         </h1>
         
-        <p className="text-xl md:text-2xl lg:text-3xl text-foreground/80 mb-8 leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
+        <p className="text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 leading-relaxed drop-shadow-md animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
           Een theatraal onderzoek naar de verborgen wereld van moederschap
         </p>
 
-        <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
+        <p className="text-lg md:text-xl text-white/75 mb-12 max-w-2xl mx-auto drop-shadow animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
           Waar innerlijke stemmen gehoord worden. Waar tegenstellingen mogen bestaan. 
           Waar we samen de diepte opzoeken.
         </p>
