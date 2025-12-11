@@ -14,7 +14,7 @@ const teamMembers = [
   },
   {
     name: "Yinske Silva",
-    role: "Cofounder, moderator & creatieve aanjager",
+    role: "Cofounder, moeder en moderator",
     description: [
       "Yinske is vanaf het eerste moment een drijvende kracht binnen Mamamonologen. Als (stem)coach, performer en maker brengt ze een unieke combinatie van sensitiviteit en scherpte mee.",
       "Tijdens de sessies creëert ze een open, veilige sfeer, stelt ze de juiste vragen op het juiste moment en tilt ze het gesprek moeiteloos naar een diepere laag. Haar aanwezigheid zorgt voor rust, verbinding en verdieping."
@@ -25,7 +25,7 @@ const teamMembers = [
   },
   {
     name: "Marieke Giebels",
-    role: "Dramaturgische begeleiding",
+    role: "Dramaturgische begeleiding en moeder",
     description: [
       "Marieke begeleidt Mamamonologen als dramaturg en ondersteunt Maud in het schrijven, verfijnen en vormgeven van de monologen.",
       "Met haar theatrale blik zorgt ze ervoor dat persoonlijke verhalen uitgroeien tot krachtig, gelaagd en artistiek werk. Als moeder resoneert ze sterk met het project, wat haar betrokkenheid zowel inhoudelijk als persoonlijk verdiept."
@@ -36,7 +36,7 @@ const teamMembers = [
   },
   {
     name: "Sophie Simenel",
-    role: "Productie & ondersteuning",
+    role: "Productie, ondersteuning en moeder",
     description: [
       "Sophie is de praktische motor achter Mamamonologen. Met haar heldere blik, daadkracht en warme betrokkenheid zorgt ze ervoor dat ideeën werkelijkheid worden: concreet, georganiseerd en in beweging.",
       "Ze bewaakt het proces, houdt het doel scherp en is een onmisbare drijvende kracht binnen het project."
