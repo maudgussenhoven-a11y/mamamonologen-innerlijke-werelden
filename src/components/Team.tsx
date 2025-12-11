@@ -9,7 +9,7 @@ const teamMembers = [
       "Maud is gedreven door de missie om de verborgen wereld van moeders zichtbaar te maken — in kunst, in contact en in de samenleving.",
       "Door haar achtergrond in theater en voice dialogue combineert ze de kracht van acteren met diepgaande innerlijke verkenning. Met Mamamonologen creëert ze een plek waar authenticiteit en kwetsbaarheid gevierd worden."
     ],
-    quote: "Ik geloof dat wanneer we onze innerlijke stemmen durven te horen, we elkaar eindelijk echt kunnen ontmoeten.",
+    quote: "Het erkennen en uitspreken van onze innerlijke stemmen geeft vrijheid: het maakt ons lichter, eerlijker en meer verbonden met onszelf én anderen.",
     image: maudPortrait,
     tag: "Voice Dialogue Practitioner"
   },
