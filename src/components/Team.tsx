@@ -1,4 +1,5 @@
 import maudPortrait from "@/assets/maud-photo.jpg";
+import mariekePhoto from "@/assets/marieke-photo.jpg";
 
 const teamMembers = [
   {
@@ -31,7 +32,7 @@ const teamMembers = [
       "Met haar theatrale blik zorgt ze ervoor dat persoonlijke verhalen uitgroeien tot krachtig, gelaagd en artistiek werk. Als moeder resoneert ze sterk met het project, wat haar betrokkenheid zowel inhoudelijk als persoonlijk verdiept."
     ],
     quote: "Wat mij raakt aan Mamamonologen, is dat er een ruimte geschept wordt waarin we delen van onszelf tonen die vaak onbespreekbaar zijn. Waardoor we in alle kleinschalige intimiteit kunst gebruiken om samen te kunnen zijn in iets dat vaak als eenzaam wordt ervaren.",
-    image: null,
+    image: mariekePhoto,
     tag: "Dramaturg"
   },
   {
