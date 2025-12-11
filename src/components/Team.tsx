@@ -4,7 +4,7 @@ import mariekePhoto from "@/assets/marieke-photo.jpg";
 const teamMembers = [
   {
     name: "Maud Gussenhoven",
-    role: "Actrice, moeder en Voice Dialogue practitioner",
+    role: "Maker, Voice Dialogue practitioner en moeder",
     description: [
       "Maud is gedreven door de missie om de verborgen wereld van moeders zichtbaar te maken — in kunst, in contact en in de samenleving.",
       "Door haar achtergrond in theater en voice dialogue combineert ze de kracht van acteren met diepgaande innerlijke verkenning. Met Mamamonologen creëert ze een plek waar authenticiteit en kwetsbaarheid gevierd worden."
@@ -15,7 +15,7 @@ const teamMembers = [
   },
   {
     name: "Yinske Silva",
-    role: "Cofounder, moeder en moderator",
+    role: "Cofounder, moderator en moeder",
     description: [
       "Yinske is vanaf het eerste moment een drijvende kracht binnen Mamamonologen. Als (stem)coach, performer en maker brengt ze een unieke combinatie van sensitiviteit en scherpte mee.",
       "Tijdens de sessies creëert ze een open, veilige sfeer, stelt ze de juiste vragen op het juiste moment en tilt ze het gesprek moeiteloos naar een diepere laag. Haar aanwezigheid zorgt voor rust, verbinding en verdieping."
