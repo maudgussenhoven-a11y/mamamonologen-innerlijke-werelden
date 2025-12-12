@@ -69,7 +69,7 @@ const Products = () => {
         <div className="container mx-auto px-6 max-w-6xl relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
-              Wat ik aanbied
+              Wat we aanbieden
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
               Verschillende vormen om de innerlijke wereld te verkennen

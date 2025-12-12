@@ -11,7 +11,7 @@ const Hero = () => {
           alt="Mamamonologen - Innerlijke stemmen van moederschap"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-background/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/70" />
       </div>
 
       {/* Content */}
@@ -48,9 +48,10 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Decorative organic shapes */}
+      {/* Decorative organic shapes 
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background to-transparent" />
-    </section>
+    */}
+      </section>
   );
 };
 
