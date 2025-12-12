@@ -75,7 +75,7 @@ const Products = () => {
               Verschillende vormen om de innerlijke wereld te verkennen
             </p>
             <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full mb-12" />
-            <div className="relative rounded-2xl overflow-hidden shadow-medium max-w-4xl mx-auto">
+            <div className="relative rounded-2xl overflow-hidden shadow-medium max-w-2xl mx-auto">
               <img 
                 src={productsPhoto} 
                 alt="Mamamonologen sessie in actie" 
