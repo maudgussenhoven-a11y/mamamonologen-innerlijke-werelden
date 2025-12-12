@@ -28,7 +28,7 @@ const ForWho = () => {
     <section className="py-24 bg-gradient-to-b from-muted/30 to-background">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div className="relative rounded-2xl overflow-hidden shadow-medium max-w-md mx-auto lg:mx-0">
+          <div className="relative rounded-2xl overflow-hidden shadow-medium max-w-sm mx-auto lg:mx-0">
             <img 
               src={forWhoPhoto} 
               alt="Intiem moment van verbinding" 
