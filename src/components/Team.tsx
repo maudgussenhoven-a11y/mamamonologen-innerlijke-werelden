@@ -1,5 +1,6 @@
 import maudPortrait from "@/assets/maud-photo.jpg";
 import mariekePhoto from "@/assets/marieke-photo.jpg";
+import sophiePhoto from "@/assets/sophie-photo.jpg";
 
 const teamMembers = [
   {
@@ -43,7 +44,7 @@ const teamMembers = [
       "Ze bewaakt het proces, houdt het doel scherp en is een onmisbare drijvende kracht binnen het project."
     ],
     quote: null,
-    image: null,
+    image: sophiePhoto,
     tag: "Productie"
   }
 ];
