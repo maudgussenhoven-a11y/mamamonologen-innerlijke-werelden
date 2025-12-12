@@ -1,3 +1,5 @@
+import forWhoPhoto from '@/assets/forwho-photo.jpg';
+
 const ForWho = () => {
   const audiences = [
     {
@@ -25,15 +27,24 @@ const ForWho = () => {
   return (
     <section className="py-24 bg-gradient-to-b from-muted/30 to-background">
       <div className="container mx-auto px-6 max-w-6xl">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
-            Voor wie is het?
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Deze ervaring spreekt tot iedereen die op zoek is naar verbinding, 
-            erkenning en diepgang
-          </p>
-          <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full mt-6" />
+        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="relative rounded-2xl overflow-hidden shadow-medium max-w-md mx-auto lg:mx-0">
+            <img 
+              src={forWhoPhoto} 
+              alt="Intiem moment van verbinding" 
+              className="w-full h-auto object-cover"
+            />
+          </div>
+          <div className="text-center lg:text-left">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
+              Voor wie is het?
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl">
+              Deze ervaring spreekt tot iedereen die op zoek is naar verbinding, 
+              erkenning en diepgang
+            </p>
+            <div className="w-24 h-1 bg-gradient-warm rounded-full mt-6 mx-auto lg:mx-0" />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
