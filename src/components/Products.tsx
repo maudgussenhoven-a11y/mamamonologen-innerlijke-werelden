@@ -2,13 +2,13 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Mail, Phone } from "lucide-react";
+import productsPhoto from "@/assets/products-photo.jpg";
 
 interface Product {
   title: string;
   subtitle: string;
   description: string;
   details: string[];
-  icon: string;
   gradient: string;
 }
 
@@ -28,7 +28,6 @@ const Products = () => {
         "Laagdrempelig en diepgaand",
         "Geschikt voor theaters, festivals en organisaties"
       ],
-      icon: "🎭",
       gradient: "from-primary/20 to-primary/10"
     },
     {
@@ -43,7 +42,6 @@ const Products = () => {
         "Universele menselijke thema's",
         "Voor grotere theaterlocaties"
       ],
-      icon: "✨",
       gradient: "from-accent/20 to-accent/10"
     },
     {
@@ -58,7 +56,6 @@ const Products = () => {
         "Praktische tools voor zelfonderzoek",
         "Geschikt voor professionals en particulieren"
       ],
-      icon: "🌱",
       gradient: "from-secondary/30 to-secondary/20"
     }
   ];
@@ -77,10 +74,17 @@ const Products = () => {
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
               Verschillende vormen om de innerlijke wereld te verkennen
             </p>
-            <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full" />
+            <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full mb-12" />
+            <div className="relative rounded-2xl overflow-hidden shadow-medium max-w-4xl mx-auto">
+              <img 
+                src={productsPhoto} 
+                alt="Mamamonologen sessie in actie" 
+                className="w-full h-auto object-cover"
+              />
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-3 gap-8 mb-16 mt-16">
             {products.map((product, index) => (
               <div
                 key={index}
@@ -88,9 +92,6 @@ const Products = () => {
                 onClick={() => setSelectedProduct(product)}
               >
                 <div className="relative z-10">
-                  <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">
-                    {product.icon}
-                  </div>
                   <h3 className="text-2xl font-semibold mb-2 text-foreground group-hover:text-primary transition-smooth">
                     {product.title}
                   </h3>
@@ -179,8 +180,7 @@ const Products = () => {
       <Dialog open={!!selectedProduct} onOpenChange={() => setSelectedProduct(null)}>
         <DialogContent className="max-w-2xl">
           <DialogHeader>
-            <DialogTitle className="text-3xl font-bold flex items-center gap-3">
-              <span className="text-4xl">{selectedProduct?.icon}</span>
+            <DialogTitle className="text-3xl font-bold">
               {selectedProduct?.title}
             </DialogTitle>
           </DialogHeader>
