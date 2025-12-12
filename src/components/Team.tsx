@@ -40,10 +40,9 @@ const teamMembers = [
     name: "Sophie Simenel",
     role: "Productie, ondersteuning en moeder",
     description: [
-      "Sophie is de praktische motor achter Mamamonologen. Met haar heldere blik, daadkracht en warme betrokkenheid zorgt ze ervoor dat ideeën werkelijkheid worden: concreet, georganiseerd en in beweging.",
-      "Ze bewaakt het proces, houdt het doel scherp en is een onmisbare drijvende kracht binnen het project."
+      "Sophie is de praktische motor achter Mamamonologen. Met haar heldere blik, daadkracht en warme betrokkenheid zorgt ze ervoor dat ideeën werkelijkheid worden: concreet, georganiseerd en in beweging. Ze bewaakt het proces, houdt het doel scherp en is een onmisbare drijvende kracht binnen het project."
     ],
-    quote: null,
+    quote: "Ik word enthousiast van echte verhalen. En van echte mensen die gepassioneerd zijn en dit willen delen. De tegenstellingen en gemeenschappelijkheden uit de verhalen en ervaringen van Mamamonologen zijn voor mij inspirerend als mens, moeder en producent.",
     image: sophiePhoto,
     tag: "Productie"
   }
