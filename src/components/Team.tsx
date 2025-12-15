@@ -1,6 +1,7 @@
 import maudPortrait from "@/assets/maud-photo.jpg";
 import mariekePhoto from "@/assets/marieke-photo.jpg";
 import sophiePhoto from "@/assets/sophie-photo.jpg";
+import yinskePhoto from "@/assets/yinske-photo.jpg";
 
 const teamMembers = [
   {
@@ -22,7 +23,7 @@ const teamMembers = [
       "Tijdens de sessies creëert ze een open, veilige sfeer, stelt ze de juiste vragen op het juiste moment en tilt ze het gesprek moeiteloos naar een diepere laag. Haar aanwezigheid zorgt voor rust, verbinding en verdieping."
     ],
     quote: "Mamamonologen is een project dat raakt. Het maakt ruimte voor die gevoelens en ervaringen over moederschap die we voor onszelf houden. Als Maud speelt en ons aanspreekt ontstaat er magie.",
-    image: null,
+    image: yinskePhoto,
     tag: "(Stem)coach & Performer"
   },
   {
