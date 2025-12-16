@@ -75,7 +75,7 @@ const ForWho = () => {
             <div className="flex-1">
               <h3 className="text-3xl mb-4 text-foreground">De theatrale sessie</h3>
               <div className="space-y-3 text-lg text-foreground/90 leading-relaxed">
-                <p>Een intieme bijeenkomst van 1,5–2 uur waarin:</p>
+                <p>Een intieme bijeenkomst van <span className="text-primary">1,5–2 uur</span> waarin:</p>
                 <ul className="space-y-2 ml-6 list-disc list-outside">
                   <li>Innerlijke moeders tot leven worden gebracht</li>
                   <li>Deelnemers worden uitgenodigd hun eigen stem te ontmoeten</li>
