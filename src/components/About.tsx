@@ -23,7 +23,7 @@ const About = () => {
               eindelijk gehoord mag worden.
             </p>
             <p className="text-foreground/90">
-              Een plek waar alle mensen — vrouwen én mannen — een inspirerende, veilige en verbindende ruimte vinden om 
+              Een plek waar alle mensen een inspirerende, veilige en verbindende ruimte vinden om 
               via theater naar binnen te luisteren, elkaar te ontmoeten en de diepgang op te zoeken die in het dagelijks 
               leven vaak ongezien blijft.
             </p>
