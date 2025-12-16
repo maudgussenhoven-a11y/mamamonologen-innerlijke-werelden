@@ -14,13 +14,13 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div className="space-y-6 text-lg leading-relaxed">
             <p className="text-foreground/90">
-              Mamamonologen is een <span className="font-semibold text-primary">theatraal, intiem en onderzoekend</span> project 
+              Mamamonologen is een <span className="text-primary">theatraal, intiem en onderzoekend</span> project 
               dat de gelaagdheid van moederschap zichtbaar maakt. Het is geen traditionele voorstelling, maar een combinatie 
               van monoloog, embodiment, innerlijke stemmen en interactie met het publiek.
             </p>
             <p className="text-foreground/90">
-              Een plek waar de binnenwereld van vrouwen — met al haar tegenstellingen, verlangens, twijfels en krachten — 
-              eindelijk <span className="font-semibold text-accent">gehoord mag worden</span>.
+              Een plek waar de binnenwereld van vrouwen, met al haar tegenstellingen, verlangens, twijfels en krachten, 
+              eindelijk <span className="text-accent">gehoord mag worden</span>.
             </p>
             <p className="text-foreground/90">
               Een plek waar alle mensen — vrouwen én mannen — een inspirerende, veilige en verbindende ruimte vinden om 
@@ -49,23 +49,23 @@ const About = () => {
 
         {/* Why section */}
         <div className="bg-card rounded-3xl p-8 md:p-12 shadow-soft">
-          <h3 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
+          <h3 className="text-3xl md:text-4xl mb-6 text-foreground">
             Waarom dit project?
           </h3>
           <div className="space-y-4 text-lg leading-relaxed text-foreground/90">
             <p>
-              De binnenwereld van moeders is vaak <span className="font-semibold text-accent">onzichtbaar</span>. 
+              De binnenwereld van moeders is vaak <span className="text-accent">onzichtbaar</span>. 
               We worden geacht sterk, stabiel en liefdevol te zijn en vooral veel van onszelf op te geven.
             </p>
             <p>
               Mamamonologen maakt deze verborgen lagen zichtbaar, niet om ze op te lossen, maar om ze te 
-              <span className="font-semibold text-primary"> erkennen, te eren en samen te dragen</span>.
+              <span className="text-primary"> erkennen, te eren en samen te dragen</span>.
             </p>
             <p>
               Het project wil ruimte creëren voor een eerlijker en menselijker beeld van moederschap in een 
               maatschappij die het nog te vaak onderwaardeert. Tegelijkertijd is dit geen verhaal alleen voor moeders. 
               De innerlijke stemmen, rollen en tegenstrijdigheden die hier worden onderzocht, zijn 
-              <span className="font-semibold text-accent"> menselijk en universeel</span>.
+              <span className="text-accent"> menselijk en universeel</span>.
             </p>
             <blockquote className="text-2xl md:text-3xl italic text-primary font-light pt-6 mt-6 border-t border-border/30">
               "Ik geloof dat wanneer we onze innerlijke stemmen durven te horen, we onszelf, elkaar en de wereld echt kunnen zien."
