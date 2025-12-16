@@ -94,10 +94,10 @@ const Team = () => {
               {/* Content */}
               <div className={`md:col-span-3 space-y-5 ${index % 2 === 1 ? 'md:order-1' : ''}`}>
                 <div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+                  <h3 className="text-2xl md:text-3xl text-foreground mb-2">
                     {member.name}
                   </h3>
-                  <p className="text-lg font-semibold text-primary">
+                  <p className="text-lg text-primary">
                     {member.role}
                   </p>
                 </div>
