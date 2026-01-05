@@ -40,6 +40,19 @@ const About = () => {
           </div>
         </div>
 
+        {/* Video section */}
+        <div className="mb-20">
+          <div className="aspect-video rounded-3xl overflow-hidden shadow-medium max-w-4xl mx-auto">
+            <iframe
+              src="https://www.youtube.com/embed/2jCRu13ZzcM"
+              title="Mamamonologen video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            />
+          </div>
+        </div>
+
         {/* Experience description */}
         <div className="mb-20 text-center max-w-4xl mx-auto">
           <p className="text-xl md:text-2xl leading-relaxed text-foreground/90 italic">
