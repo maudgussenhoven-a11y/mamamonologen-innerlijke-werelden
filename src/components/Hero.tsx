@@ -30,12 +30,12 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
-          <Button 
+        <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full shadow-medium transition-smooth"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            asChild
           >
-            Boek een sessie
+            <a href="mailto:maudgussenhoven@gmail.com">Neem contact op</a>
           </Button>
           <Button 
             size="lg" 
