@@ -70,21 +70,18 @@ const ForWho = () => {
 
         {/* Session info box */}
         <div className="mt-16 bg-card rounded-3xl p-8 md:p-12 shadow-medium border border-primary/20">
-          <div className="flex items-start gap-6">
-            <div className="text-5xl">🎭</div>
-            <div className="flex-1">
-              <h3 className="text-3xl mb-4 text-foreground">De theatrale sessie</h3>
-              <div className="space-y-3 text-lg text-foreground/90 leading-relaxed">
-                <p>Een intieme bijeenkomst van <span className="text-primary">1,5–2 uur</span> waarin:</p>
-                <ul className="space-y-2 ml-6 list-disc list-outside">
-                  <li>Innerlijke moeders tot leven worden gebracht</li>
-                  <li>Deelnemers worden uitgenodigd hun eigen stem te ontmoeten</li>
-                  <li>Ruimte is voor reflectie, herkenning en uitwisseling</li>
-                </ul>
-                <p className="pt-3 text-muted-foreground italic">
-                  Deze vorm is laagdrempelig, diepgaand en geschikt voor groepen van 15–100 mensen
-                </p>
-              </div>
+          <div>
+            <h3 className="text-3xl mb-4 text-foreground">De theatrale sessie</h3>
+            <div className="space-y-3 text-lg text-foreground/90 leading-relaxed">
+              <p>Een intieme bijeenkomst van <span className="text-primary">1,5–2 uur</span> waarin:</p>
+              <ul className="space-y-2 ml-6 list-disc list-outside">
+                <li>Innerlijke moeders tot leven worden gebracht</li>
+                <li>Deelnemers worden uitgenodigd hun eigen stem te ontmoeten</li>
+                <li>Ruimte is voor reflectie, herkenning en uitwisseling</li>
+              </ul>
+              <p className="pt-3 text-muted-foreground italic">
+                Deze vorm is laagdrempelig, diepgaand en geschikt voor groepen van 15–100 mensen
+              </p>
             </div>
           </div>
         </div>
