@@ -67,22 +67,27 @@ const About = () => {
           </h3>
           <div className="space-y-4 text-lg leading-relaxed text-foreground/90">
             <p>
-              De binnenwereld van moeders is vaak <span className="text-accent">onzichtbaar</span>. 
-              We worden geacht sterk, stabiel en liefdevol te zijn en vooral veel van onszelf op te geven.
+              De binnenwereld van moeders blijft vaak <span className="text-accent">onzichtbaar</span>. 
+              Van ons wordt verwacht dat we zorgzaam, stabiel en liefdevol zijn, terwijl we ondertussen alles draaiende houden en vooral veel van onszelf weggeven.
             </p>
             <p>
-              Mamamonologen maakt deze verborgen lagen zichtbaar, niet om ze op te lossen, maar om ze te 
-              <span className="text-primary"> erkennen, te eren en samen te dragen</span>.
+              Toen ik een quote van Dr. Gabor Maté las, viel er iets op zijn plek: de druk die moeders voelen gaat vaak verder dan wat één mens kan dragen. Bij mij uit zich dat in een constant gevoel van <span className="text-primary">tekortschieten</span>.
             </p>
             <p>
-              Het project wil ruimte creëren voor een eerlijker en menselijker beeld van moederschap in een 
-              maatschappij die het nog te vaak onderwaardeert. Tegelijkertijd is dit geen verhaal alleen voor moeders. 
-              De innerlijke stemmen, rollen en tegenstrijdigheden die hier worden onderzocht, zijn 
-              <span className="text-accent"> menselijk en universeel</span>.
+              Als ik werk, mis ik mijn kinderen. Als ik bij hen ben, voel ik de druk van alles wat nog moet. Alsof ik nooit helemaal op de juiste plek ben.
             </p>
-            <blockquote className="text-2xl md:text-3xl italic text-primary font-light pt-6 mt-6 border-t border-border/30">
-              "Ik geloof dat wanneer we onze innerlijke stemmen durven te horen, we onszelf, elkaar en de wereld echt kunnen zien."
-            </blockquote>
+            <p>
+              Ik wil alles tegelijk en verwacht dat ook van mezelf: tijd voor mijn kinderen, ruimte voor mezelf, liefde, werk, gezondheid, verbondenheid. Die tegenstrijdigheden leven voortdurend naast elkaar.
+            </p>
+            <p className="text-primary font-medium">
+              Mamamonologen is ontstaan vanuit dat besef.
+            </p>
+            <p>
+              Niet om die spanningen op te lossen, maar om ze <span className="text-accent">zichtbaar te maken, te erkennen en samen te dragen</span>. Door mijn verschillende innerlijke moederdelen te leren kennen, ontdekte ik dat leven met tegenstellingen geen falen is, maar een vorm van bewust leven.
+            </p>
+            <p>
+              Mamamonologen wil ruimte maken voor een eerlijker en menselijker beeld van moederschap, in een maatschappij die zorg en kwetsbaarheid vaak onderwaardeert. Tegelijkertijd gaat dit project niet alleen over moeders. De innerlijke stemmen en tegenstrijdigheden die hier onderzocht worden, zijn <span className="text-accent">universeel</span> en raken aan wat het betekent om mens te zijn.
+            </p>
           </div>
         </div>
       </div>
