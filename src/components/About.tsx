@@ -70,8 +70,12 @@ const About = () => {
               De binnenwereld van moeders blijft vaak <span className="text-accent">onzichtbaar</span>. 
               Van ons wordt verwacht dat we zorgzaam, stabiel en liefdevol zijn, terwijl we ondertussen alles draaiende houden en vooral veel van onszelf weggeven.
             </p>
+            <blockquote className="border-l-4 border-primary pl-6 py-2 my-4 italic text-foreground/80">
+              "Mothers and parents in general, have pressures on them that are actually beyond the natural responsibility of a human being"
+              <footer className="text-sm mt-2 not-italic text-muted-foreground">— Dr. Gabor Maté</footer>
+            </blockquote>
             <p>
-              Toen ik een quote van Dr. Gabor Maté las, viel er iets op zijn plek: de druk die moeders voelen gaat vaak verder dan wat één mens kan dragen. Bij mij uit zich dat in een constant gevoel van <span className="text-primary">tekortschieten</span>.
+              Toen ik deze quote las, viel er iets op zijn plek: de druk die moeders voelen gaat vaak verder dan wat één mens kan dragen. Bij mij uit zich dat in een constant gevoel van <span className="text-primary">tekortschieten</span>.
             </p>
             <p>
               Als ik werk, mis ik mijn kinderen. Als ik bij hen ben, voel ik de druk van alles wat nog moet. Alsof ik nooit helemaal op de juiste plek ben.
