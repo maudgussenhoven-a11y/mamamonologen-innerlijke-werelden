@@ -87,7 +87,7 @@ const About = () => {
               Mamamonologen is ontstaan vanuit dat besef.
             </p>
             <p>
-              Niet om die spanningen op te lossen, maar om ze <span className="text-accent">zichtbaar te maken, te erkennen en samen te dragen</span>. Door mijn verschillende innerlijke moederdelen te leren kennen, ontdekte ik dat leven met tegenstellingen geen falen is, maar een vorm van bewust leven.
+              Niet om die spanningen op te lossen, maar om ze <span className="text-accent">zichtbaar te maken, te erkennen en samen te dragen</span>. Door mijn verschillende innerlijke moederdelen te leren kennen, ontdekte ik dat leven met tegenstellingen mij een rijker mens maakt.
             </p>
             <p>
               Mamamonologen wil ruimte maken voor een eerlijker en menselijker beeld van moederschap, in een maatschappij die zorg en kwetsbaarheid vaak onderwaardeert. Tegelijkertijd gaat dit project niet alleen over moeders. De innerlijke stemmen en tegenstrijdigheden die hier onderzocht worden, zijn <span className="text-accent">universeel</span> en raken aan wat het betekent om mens te zijn.
