@@ -4,6 +4,7 @@ import Themes from "@/components/Themes";
 import ForWho from "@/components/ForWho";
 import Team from "@/components/Team";
 import Products from "@/components/Products";
+import Reviews from "@/components/Reviews";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <ForWho />
       <Team />
       <Products />
+      <Reviews />
       <Footer />
     </div>
   );
