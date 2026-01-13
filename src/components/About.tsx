@@ -112,7 +112,7 @@ const About = () => {
         </div>
 
         {/* Experience description */}
-        <div className="mb-20 text-center max-w-4xl mx-auto">
+        <div className="text-center max-w-4xl mx-auto">
           <p className="text-xl md:text-2xl leading-relaxed text-foreground/90 italic">
             Tijdens deze voorstelling neem ik je mee op een reis door mijn innerlijke landschap - een uitnodiging om ook jouw eigen lagen te verkennen. We raken aan wat vaak onuitgesproken blijft, waar de universele donkere en lichtere kanten van het leven zichtbaar worden.
           </p>
