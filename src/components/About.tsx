@@ -60,15 +60,6 @@ const About = () => {
           </p>
         </div>
 
-        {/* What we offer section */}
-        <div className="mb-12 text-center">
-          <h3 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-            Wat we aanbieden
-          </h3>
-          <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-            Bekijk onze voorstellingen, workshops en andere aanbiedingen hieronder.
-          </p>
-        </div>
 
         {/* Why section */}
         <div className="bg-card rounded-3xl p-8 md:p-12 shadow-soft">
