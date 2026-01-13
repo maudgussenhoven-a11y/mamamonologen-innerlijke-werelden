@@ -5,7 +5,6 @@ import ForWho from "@/components/ForWho";
 import Team from "@/components/Team";
 import Products from "@/components/Products";
 import Reviews from "@/components/Reviews";
-import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -18,7 +17,6 @@ const Index = () => {
       <ForWho />
       <Team />
       <Reviews />
-      <Newsletter />
       <Footer />
     </div>
   );

@@ -1,4 +1,50 @@
+import { useState } from "react";
 import aboutPhoto from "@/assets/about-photo.jpg";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { useToast } from "@/hooks/use-toast";
+import { Mail } from "lucide-react";
+const NewsletterForm = () => {
+  const [email, setEmail] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const { toast } = useToast();
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email || !email.includes("@")) {
+      toast({
+        title: "Ongeldig e-mailadres",
+        description: "Vul een geldig e-mailadres in.",
+        variant: "destructive",
+      });
+      return;
+    }
+    setIsLoading(true);
+    setTimeout(() => {
+      toast({
+        title: "Bedankt voor je aanmelding!",
+        description: "Je ontvangt binnenkort onze nieuwsbrief.",
+      });
+      setEmail("");
+      setIsLoading(false);
+    }, 1000);
+  };
+
+  return (
+    <form onSubmit={handleSubmit} className="flex gap-2">
+      <Input
+        type="email"
+        placeholder="Je e-mailadres"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        className="flex-1 bg-background/80 border-primary/20 text-sm h-9"
+      />
+      <Button type="submit" disabled={isLoading} size="sm" className="whitespace-nowrap">
+        {isLoading ? "..." : "Aanmelden"}
+      </Button>
+    </form>
+  );
+};
 
 const About = () => {
   return (
@@ -36,6 +82,18 @@ const About = () => {
                 alt="Mamamonologen portret" 
                 className="w-full h-full object-cover"
               />
+            </div>
+
+            {/* Newsletter compact box */}
+            <div className="mt-8 bg-primary/10 rounded-2xl p-6 border border-primary/20">
+              <div className="flex items-center gap-3 mb-3">
+                <Mail className="w-5 h-5 text-primary" />
+                <h4 className="font-semibold text-foreground">Op de hoogte blijven?</h4>
+              </div>
+              <p className="text-sm text-foreground/70 mb-4">
+                Meld je aan voor de nieuwsbrief
+              </p>
+              <NewsletterForm />
             </div>
           </div>
         </div>
