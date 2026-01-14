@@ -111,11 +111,20 @@ const About = () => {
           </div>
         </div>
 
-        {/* Experience description */}
-        <div className="text-center max-w-4xl mx-auto">
-          <p className="text-xl md:text-2xl leading-relaxed text-foreground/90 italic">
-            Tijdens deze voorstelling neem ik je mee op een reis door mijn innerlijke landschap - een uitnodiging om ook jouw eigen lagen te verkennen. We raken aan wat vaak onuitgesproken blijft, waar de universele donkere en lichtere kanten van het leven zichtbaar worden.
-          </p>
+        {/* Testimonials */}
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="bg-primary/5 rounded-2xl p-6 border border-primary/10">
+            <p className="text-foreground/90 italic mb-4">
+              "Mamamonologen werkt heel verbindend. De eerlijkheid vond ik mooi, in al die verschillende lagen. Elkaar zien, jezelf laten zien. Het gevoel van samen. De kracht van het moederschap, maar ook het kwetsbare en het rauwe. Alles hoort erbij en dat vond ik zo mooi aan deze bijeenkomst."
+            </p>
+            <p className="text-primary font-semibold">— Amber</p>
+          </div>
+          <div className="bg-primary/5 rounded-2xl p-6 border border-primary/10">
+            <p className="text-foreground/90 italic mb-4">
+              "Inspirerend, verbindend, veilig, energie, kwetsbaar, eerlijk, herkenbaar en ook fun, lachen, entertainment!"
+            </p>
+            <p className="text-primary font-semibold">— Anoniem</p>
+          </div>
         </div>
       </div>
     </section>
