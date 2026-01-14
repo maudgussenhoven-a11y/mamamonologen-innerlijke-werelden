@@ -62,7 +62,7 @@ const Products = () => {
 
   return (
     <>
-      <section id="products" className="py-24 bg-gradient-to-b from-background to-muted/30 relative overflow-hidden">
+      <section id="products" className="pt-12 pb-24 bg-gradient-to-b from-background to-muted/30 relative overflow-hidden">
         {/* Decorative background */}
         <div className="absolute inset-0 bg-gradient-warm opacity-5" />
         
