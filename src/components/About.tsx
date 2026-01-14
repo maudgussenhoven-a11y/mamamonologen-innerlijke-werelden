@@ -48,7 +48,7 @@ const NewsletterForm = () => {
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-gradient-subtle">
+    <section id="about" className="py-24 pb-12 bg-gradient-subtle">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
