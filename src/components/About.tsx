@@ -20,18 +20,36 @@ const NewsletterForm = () => {
       return;
     }
     setIsLoading(true);
-    setTimeout(() => {
-      toast({
-        title: "Bedankt voor je aanmelding!",
-        description: "Je ontvangt binnenkort onze nieuwsbrief.",
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({
+        "form-name": "newsletter",
+        email: email,
+      }).toString(),
+    })
+      .then(() => {
+        toast({
+          title: "Bedankt voor je aanmelding!",
+          description: "Je ontvangt binnenkort onze nieuwsbrief.",
+        });
+        setEmail("");
+      })
+      .catch(() => {
+        toast({
+          title: "Er is een fout opgetreden",
+          description: "Probeer het later opnieuw.",
+          variant: "destructive",
+        });
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
-      setEmail("");
-      setIsLoading(false);
-    }, 1000);
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex gap-2">
+    <form onSubmit={handleSubmit} name="newsletter" data-netlify="true" className="flex gap-2">
       <Input
         type="email"
         placeholder="Je e-mailadres"
