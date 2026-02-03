@@ -20,10 +20,12 @@
 
   <body>
     <div id="root"></div>
-   <!-- Hidden form for Netlify Forms detection -->
-   <form name="newsletter" style="display: none;">
-     <input type="email" name="email" />
-   </form>
+    <!-- Hidden form for Netlify Forms detection -->
+    <form name="newsletter" data-netlify="true" netlify-honeypot="bot-field" style="display: none;">
+      <input type="hidden" name="form-name" value="newsletter" />
+      <input type="text" name="bot-field" />
+      <input type="email" name="email" />
+    </form>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

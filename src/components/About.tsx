@@ -49,7 +49,9 @@ const NewsletterForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} name="newsletter" data-netlify="true" className="flex gap-2">
+    <form onSubmit={handleSubmit} name="newsletter" data-netlify="true" netlify-honeypot="bot-field" className="flex gap-2">
+      <input type="hidden" name="form-name" value="newsletter" />
+      <input type="text" name="bot-field" className="hidden" />
       <Input
         type="email"
         placeholder="Je e-mailadres"
