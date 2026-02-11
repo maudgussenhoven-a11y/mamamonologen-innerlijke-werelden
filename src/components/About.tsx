@@ -70,6 +70,21 @@ const About = () => {
   return (
     <section id="about" className="py-24 pb-12 bg-gradient-subtle">
       <div className="container mx-auto px-6 max-w-6xl">
+        {/* Speeldata */}
+        <div className="text-center mb-16 bg-primary/10 rounded-3xl p-8 md:p-10 border border-primary/20 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Speeldata</h2>
+          <p className="text-lg font-semibold text-foreground/90 mb-4">Tolhuistuin, Amsterdam Noord</p>
+          <div className="space-y-2 text-foreground/80 mb-6">
+            <p>Woensdag 25 maart 20:00 - 21:30 uur</p>
+            <p>Zaterdag 28 maart 11:00 - 12:30 uur</p>
+          </div>
+          <Button asChild size="lg">
+            <a href="https://shop.paylogic.com/315d9e0988354ccf917efa2073ce3e37" target="_blank" rel="noopener noreferrer">
+              Koop tickets
+            </a>
+          </Button>
+        </div>
+
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
             Wat is Mamamonologen?
