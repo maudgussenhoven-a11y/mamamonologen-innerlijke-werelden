@@ -71,18 +71,36 @@ const About = () => {
     <section id="about" className="py-24 pb-12 bg-gradient-subtle">
       <div className="container mx-auto px-6 max-w-6xl">
         {/* Speeldata */}
-        <div className="text-center mb-16 bg-primary/10 rounded-3xl p-8 md:p-10 border border-primary/20 max-w-2xl mx-auto">
+        <div className="text-center mb-16 bg-primary/10 rounded-3xl p-8 md:p-10 border border-primary/20 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Speeldata</h2>
+          <p className="text-foreground/90 mb-6 text-lg leading-relaxed">
+            Met veel enthousiasme kondigen wij aan dat Mamamonologen in maart te zien is in Tolhuistuin.
+            We spelen in het knusse{" "}
+            <a href="https://tolhuistuin.nl/evenementen/mamamonologen/0" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">
+              Tuinhuis
+            </a>
+            , een plek die perfect past bij de intimiteit en gelaagdheid van deze theatrale sessie.
+          </p>
+          <p className="text-foreground/90 mb-6 text-lg leading-relaxed">
+            Mamamonologen neemt je mee in de onzichtbare binnenwereld van moederschap en de universele innerlijke stemmen die daarin doorklinken.
+          </p>
           <p className="text-lg font-semibold text-foreground/90 mb-4">Tolhuistuin, Amsterdam Noord</p>
           <div className="space-y-2 text-foreground/80 mb-6">
             <p>Woensdag 25 maart 20:00 - 21:30 uur</p>
             <p>Zaterdag 28 maart 11:00 - 12:30 uur</p>
           </div>
-          <Button asChild size="lg">
-            <a href="https://shop.paylogic.com/315d9e0988354ccf917efa2073ce3e37" target="_blank" rel="noopener noreferrer">
-              Koop tickets
-            </a>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Button asChild size="lg">
+              <a href="https://shop.paylogic.com/315d9e0988354ccf917efa2073ce3e37/" target="_blank" rel="noopener noreferrer">
+                Koop tickets 25 maart
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <a href="https://shop.paylogic.com/f5c0da98404a4cac8f8fad4e527789cd" target="_blank" rel="noopener noreferrer">
+                Koop tickets 28 maart
+              </a>
+            </Button>
+          </div>
         </div>
 
         <div className="text-center mb-16">
