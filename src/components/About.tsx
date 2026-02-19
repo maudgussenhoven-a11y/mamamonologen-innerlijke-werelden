@@ -74,7 +74,7 @@ const About = () => {
         <div className="text-center mb-16 bg-primary/10 rounded-3xl p-8 md:p-10 border border-primary/20 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Speeldata</h2>
           <p className="text-foreground/90 mb-6 text-lg leading-relaxed">
-            Met veel enthousiasme kondigen wij aan dat Mamamonologen in maart te zien is in Tolhuistuin.
+            Met veel enthousiasme kondigen wij aan dat MAMA MONOLOGEN in maart te zien is in Tolhuistuin.
             We spelen in het knusse{" "}
             <a href="https://tolhuistuin.nl/evenementen/mamamonologen/0" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">
               Tuinhuis
@@ -82,7 +82,7 @@ const About = () => {
             , een plek die perfect past bij de intimiteit en gelaagdheid van deze theatrale sessie.
           </p>
           <p className="text-foreground/90 mb-6 text-lg leading-relaxed">
-            Mamamonologen neemt je mee in de onzichtbare binnenwereld van moederschap en de universele innerlijke stemmen die daarin doorklinken.
+            MAMA MONOLOGEN neemt je mee in de onzichtbare binnenwereld van moederschap en de universele innerlijke stemmen die daarin doorklinken.
           </p>
           <p className="text-lg font-semibold text-foreground/90 mb-4">Tolhuistuin, Amsterdam Noord</p>
           <div className="space-y-2 text-foreground/80 mb-6">
@@ -105,7 +105,7 @@ const About = () => {
 
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
-            Wat is Mamamonologen?
+            Wat is MAMA MONOLOGEN?
           </h2>
           <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full" />
         </div>
@@ -113,7 +113,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div className="space-y-6 text-lg leading-relaxed">
             <p className="text-foreground/90">
-              Mamamonologen is een <span className="text-primary">theatraal, intiem en onderzoekend</span> project 
+              MAMA MONOLOGEN is een <span className="text-primary">theatraal, intiem en onderzoekend</span> project 
               dat de gelaagdheid van moederschap zichtbaar maakt. Het is geen traditionele voorstelling, maar een combinatie 
               van monoloog, embodiment, innerlijke stemmen en interactie met het publiek.
             </p>
@@ -132,7 +132,7 @@ const About = () => {
             <div className="aspect-square rounded-3xl shadow-medium overflow-hidden">
               <img 
                 src={aboutPhoto} 
-                alt="Mamamonologen portret" 
+                alt="MAMA MONOLOGEN portret" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -156,7 +156,7 @@ const About = () => {
           <div className="aspect-video rounded-3xl overflow-hidden shadow-medium max-w-4xl mx-auto">
             <iframe
               src="https://www.youtube.com/embed/2jCRu13ZzcM"
-              title="Mamamonologen video"
+              title="MAMA MONOLOGEN video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="w-full h-full"
@@ -168,7 +168,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="bg-primary/5 rounded-2xl p-6 border border-primary/10">
             <p className="text-foreground/90 italic mb-4">
-              "Mamamonologen werkt heel verbindend. De eerlijkheid vond ik mooi, in al die verschillende lagen. Elkaar zien, jezelf laten zien. Het gevoel van samen. De kracht van het moederschap, maar ook het kwetsbare en het rauwe. Alles hoort erbij en dat vond ik zo mooi aan deze bijeenkomst."
+              "MAMA MONOLOGEN werkt heel verbindend. De eerlijkheid vond ik mooi, in al die verschillende lagen. Elkaar zien, jezelf laten zien. Het gevoel van samen. De kracht van het moederschap, maar ook het kwetsbare en het rauwe. Alles hoort erbij en dat vond ik zo mooi aan deze bijeenkomst."
             </p>
             <p className="text-primary font-semibold">— Amber</p>
           </div>

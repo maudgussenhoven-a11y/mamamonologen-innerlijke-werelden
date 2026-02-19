@@ -25,13 +25,13 @@ const WhyProject = () => {
               Ik wil alles tegelijk en verwacht dat ook van mezelf: tijd voor mijn kinderen, ruimte voor mezelf, liefde, werk, gezondheid, verbondenheid. Die tegenstrijdigheden leven voortdurend naast elkaar.
             </p>
             <p className="text-primary font-medium">
-              Mamamonologen is ontstaan vanuit dat besef.
+              MAMA MONOLOGEN is ontstaan vanuit dat besef.
             </p>
             <p>
               Niet om die spanningen op te lossen, maar om ze <span className="text-accent">zichtbaar te maken, te erkennen en samen te dragen</span>. Door mijn verschillende innerlijke moederdelen te leren kennen, ontdekte ik dat leven met tegenstellingen mij een rijker mens maakt.
             </p>
             <p>
-              Mamamonologen wil ruimte maken voor een eerlijker en menselijker beeld van moederschap, in een maatschappij die zorg en kwetsbaarheid vaak onderwaardeert. Tegelijkertijd gaat dit project niet alleen over moeders. De innerlijke stemmen en tegenstrijdigheden die hier onderzocht worden, zijn <span className="text-accent">universeel</span> en raken aan wat het betekent om mens te zijn.
+              MAMA MONOLOGEN wil ruimte maken voor een eerlijker en menselijker beeld van moederschap, in een maatschappij die zorg en kwetsbaarheid vaak onderwaardeert. Tegelijkertijd gaat dit project niet alleen over moeders. De innerlijke stemmen en tegenstrijdigheden die hier onderzocht worden, zijn <span className="text-accent">universeel</span> en raken aan wat het betekent om mens te zijn.
             </p>
           </div>
         </div>

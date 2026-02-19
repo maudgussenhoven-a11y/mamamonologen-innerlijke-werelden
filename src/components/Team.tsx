@@ -9,7 +9,7 @@ const teamMembers = [
     role: "Maker, Voice Dialogue practitioner en moeder",
     description: [
       "Maud is gedreven door de missie om de verborgen wereld van moeders zichtbaar te maken, in kunst, in contact en in de samenleving.",
-      "Door haar achtergrond in theater en voice dialogue combineert ze de kracht van acteren met diepgaande innerlijke verkenning. Met Mamamonologen creëert ze een plek waar authenticiteit en kwetsbaarheid gevierd worden."
+      "Door haar achtergrond in theater en voice dialogue combineert ze de kracht van acteren met diepgaande innerlijke verkenning. Met MAMA MONOLOGEN creëert ze een plek waar authenticiteit en kwetsbaarheid gevierd worden."
     ],
     quote: "Het erkennen en uitspreken van onze innerlijke stemmen geeft vrijheid: het maakt ons lichter, eerlijker en meer verbonden met onszelf én anderen.",
     image: maudPortrait,
@@ -19,10 +19,10 @@ const teamMembers = [
     name: "Yinske Silva",
     role: "Cofounder, moderator en moeder",
     description: [
-      "Yinske is vanaf het eerste moment een drijvende kracht binnen Mamamonologen. Als (stem)coach, performer en maker brengt ze een unieke combinatie van sensitiviteit en scherpte mee.",
+      "Yinske is vanaf het eerste moment een drijvende kracht binnen MAMA MONOLOGEN. Als (stem)coach, performer en maker brengt ze een unieke combinatie van sensitiviteit en scherpte mee.",
       "Tijdens de sessies creëert ze een open, veilige sfeer, stelt ze de juiste vragen op het juiste moment en tilt ze het gesprek moeiteloos naar een diepere laag. Haar aanwezigheid zorgt voor rust, verbinding en verdieping."
     ],
-    quote: "Mamamonologen is een project dat raakt. Het maakt ruimte voor die gevoelens en ervaringen over moederschap die we voor onszelf houden. Als Maud speelt en ons aanspreekt ontstaat er magie.",
+    quote: "MAMA MONOLOGEN is een project dat raakt. Het maakt ruimte voor die gevoelens en ervaringen over moederschap die we voor onszelf houden. Als Maud speelt en ons aanspreekt ontstaat er magie.",
     image: yinskePhoto,
     tag: "(Stem)coach & Performer"
   },
@@ -30,10 +30,10 @@ const teamMembers = [
     name: "Marieke Giebels",
     role: "Dramaturgische begeleiding en moeder",
     description: [
-      "Marieke begeleidt Mamamonologen als dramaturg en ondersteunt Maud in het schrijven, verfijnen en vormgeven van de monologen.",
+      "Marieke begeleidt MAMA MONOLOGEN als dramaturg en ondersteunt Maud in het schrijven, verfijnen en vormgeven van de monologen.",
       "Met haar theatrale blik zorgt ze ervoor dat persoonlijke verhalen uitgroeien tot krachtig, gelaagd en artistiek werk. Als moeder resoneert ze sterk met het project, wat haar betrokkenheid zowel inhoudelijk als persoonlijk verdiept."
     ],
-    quote: "Wat mij raakt aan Mamamonologen, is dat er een ruimte geschept wordt waarin we delen van onszelf tonen die vaak onbespreekbaar zijn. Waardoor we in alle kleinschalige intimiteit kunst gebruiken om samen te kunnen zijn in iets dat vaak als eenzaam wordt ervaren.",
+    quote: "Wat mij raakt aan MAMA MONOLOGEN, is dat er een ruimte geschept wordt waarin we delen van onszelf tonen die vaak onbespreekbaar zijn. Waardoor we in alle kleinschalige intimiteit kunst gebruiken om samen te kunnen zijn in iets dat vaak als eenzaam wordt ervaren.",
     image: mariekePhoto,
     tag: "Dramaturg"
   },
@@ -41,9 +41,9 @@ const teamMembers = [
     name: "Sophie Simenel",
     role: "Productie, ondersteuning en moeder",
     description: [
-      "Sophie is de praktische motor achter Mamamonologen. Met haar heldere blik, daadkracht en warme betrokkenheid zorgt ze ervoor dat ideeën werkelijkheid worden: concreet, georganiseerd en in beweging. Ze bewaakt het proces, houdt het doel scherp en is een onmisbare drijvende kracht binnen het project."
+      "Sophie is de praktische motor achter MAMA MONOLOGEN. Met haar heldere blik, daadkracht en warme betrokkenheid zorgt ze ervoor dat ideeën werkelijkheid worden: concreet, georganiseerd en in beweging. Ze bewaakt het proces, houdt het doel scherp en is een onmisbare drijvende kracht binnen het project."
     ],
-    quote: "Ik word enthousiast van echte verhalen. En van echte mensen die gepassioneerd zijn en dit willen delen. De tegenstellingen en gemeenschappelijkheden uit de verhalen en ervaringen van Mamamonologen zijn voor mij inspirerend als mens, moeder en producent.",
+    quote: "Ik word enthousiast van echte verhalen. En van echte mensen die gepassioneerd zijn en dit willen delen. De tegenstellingen en gemeenschappelijkheden uit de verhalen en ervaringen van MAMA MONOLOGEN zijn voor mij inspirerend als mens, moeder en producent.",
     image: sophiePhoto,
     tag: "Productie"
   }

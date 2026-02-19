@@ -13,7 +13,7 @@ const Contact = () => {
             Boek een sessie
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Breng Mamamonologen naar jouw organisatie, theater of gemeenschap
+            Breng MAMA MONOLOGEN naar jouw organisatie, theater of gemeenschap
           </p>
           <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full mt-6" />
         </div>
