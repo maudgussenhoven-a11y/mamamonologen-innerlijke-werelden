@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <img 
           src={heroImage} 
-          alt="Mamamonologen - Innerlijke stemmen van moederschap"
+          alt="MAMA MONOLOGEN - Innerlijke stemmen van moederschap"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/70" />
@@ -17,7 +17,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-white drop-shadow-lg animate-in fade-in slide-in-from-bottom-4 duration-1000">
-          Mamamonologen
+          MAMA MONOLOGEN
         </h1>
         
         <p className="text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 leading-relaxed drop-shadow-md animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">

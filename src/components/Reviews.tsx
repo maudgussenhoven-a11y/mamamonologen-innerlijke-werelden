@@ -12,7 +12,7 @@ const Reviews = () => {
           <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
             <iframe
               src="https://www.youtube.com/embed/98DSVD0k8J8"
-              title="Mamamonologen Review"
+              title="MAMA MONOLOGEN Review"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="w-full h-full"

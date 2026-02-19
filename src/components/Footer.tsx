@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="text-center space-y-4">
           <h3 className="text-2xl font-bold text-foreground">
-            Mamamonologen
+            MAMA MONOLOGEN
           </h3>
           <p className="text-muted-foreground">
             Waar innerlijke stemmen gehoord worden
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
 
           <div className="pt-6 text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Mamamonologen. Alle rechten voorbehouden.
+            © {new Date().getFullYear()} MAMA MONOLOGEN. Alle rechten voorbehouden.
           </div>
         </div>
       </div>

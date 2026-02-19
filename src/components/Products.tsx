@@ -78,7 +78,7 @@ const Products = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-medium max-w-2xl mx-auto">
               <img 
                 src={productsPhoto} 
-                alt="Mamamonologen sessie in actie" 
+                alt="MAMA MONOLOGEN sessie in actie" 
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -119,7 +119,7 @@ const Products = () => {
           <div className="bg-card rounded-3xl shadow-medium p-8 md:p-12 border border-primary/20">
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold mb-4 text-foreground">
-                Breng Mamamonologen naar jouw organisatie
+                Breng MAMA MONOLOGEN naar jouw organisatie
               </h3>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Perfect voor theaters, festivals, organisaties, bedrijven en gemeenschappen 
