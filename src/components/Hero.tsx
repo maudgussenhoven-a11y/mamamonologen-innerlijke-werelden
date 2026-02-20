@@ -30,20 +30,20 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
-        <Button 
+          <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full shadow-medium transition-smooth"
             asChild
           >
-            <a href="mailto:maudgussenhoven@gmail.com">Neem contact op</a>
+            <a href="https://shop.paylogic.com/315d9e0988354ccf917efa2073ce3e37/" target="_blank" rel="noopener noreferrer">Koop tickets 25 maart</a>
           </Button>
           <Button 
             size="lg" 
             variant="outline"
-            className="border-2 border-foreground/30 hover:bg-foreground/5 px-8 py-6 text-lg rounded-full transition-smooth"
-            onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+            className="border-2 border-white/60 text-white hover:bg-white/10 px-8 py-6 text-lg rounded-full transition-smooth"
+            asChild
           >
-            Ontdek meer
+            <a href="https://shop.paylogic.com/f5c0da98404a4cac8f8fad4e527789cd" target="_blank" rel="noopener noreferrer">Koop tickets 28 maart</a>
           </Button>
         </div>
       </div>
