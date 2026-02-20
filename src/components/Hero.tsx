@@ -39,8 +39,7 @@ const Hero = () => {
           </Button>
           <Button 
             size="lg" 
-            variant="outline"
-            className="border-2 border-white/60 text-white hover:bg-white/10 px-8 py-6 text-lg rounded-full transition-smooth"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full shadow-medium transition-smooth"
             asChild
           >
             <a href="https://shop.paylogic.com/f5c0da98404a4cac8f8fad4e527789cd" target="_blank" rel="noopener noreferrer">Koop tickets 28 maart</a>
