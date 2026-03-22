@@ -30,13 +30,18 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
-          <Button 
-            size="lg" 
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full shadow-medium transition-smooth"
-            asChild
-          >
-            <a href="https://shop.paylogic.com/315d9e0988354ccf917efa2073ce3e37/" target="_blank" rel="noopener noreferrer">Koop tickets 25 maart</a>
-          </Button>
+          <div className="relative inline-flex">
+            <Button 
+              size="lg" 
+              className="bg-primary/50 text-primary-foreground px-8 py-6 text-lg rounded-full shadow-medium cursor-not-allowed opacity-70"
+              disabled
+            >
+              Koop tickets 25 maart
+            </Button>
+            <span className="absolute inset-0 flex items-center justify-center text-white font-bold text-xl uppercase tracking-wider rotate-[-12deg] drop-shadow-lg">
+              Uitverkocht
+            </span>
+          </div>
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full shadow-medium transition-smooth"
