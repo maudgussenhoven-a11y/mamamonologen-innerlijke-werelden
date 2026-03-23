@@ -21,7 +21,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 leading-relaxed drop-shadow-md animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
-          Een theatrale beleving over de verborgen wereld van moederschap, waarin elke stem gehoord mag worden
+          Een theatrale beleving over de verborgen wereld van moederschap
         </p>
 
         <p className="text-lg md:text-xl text-white/75 mb-12 max-w-2xl mx-auto drop-shadow animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
