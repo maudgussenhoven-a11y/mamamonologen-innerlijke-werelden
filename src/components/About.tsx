@@ -107,7 +107,7 @@ const About = () => {
           </div>
 
           <p className="text-left text-foreground/90 text-lg leading-relaxed mt-6">
-            Deze reacties bevestigen precies waar Mama Monologen voor staat: ruimte maken voor herkenning, verbinding en emoties. Met als thema moederschap.
+            Deze reacties bevestigen precies waar Mama Monologen voor staat: ruimte maken voor herkenning, verbinding en emoties. Met als thema moederschap, maar raakt eigenlijk de gehele gelaagdheid van de mens.
           </p>
         </div>
 
