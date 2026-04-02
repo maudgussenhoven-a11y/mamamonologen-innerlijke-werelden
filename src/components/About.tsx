@@ -75,7 +75,7 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Mama Monologen in Tolhuistuin</h2>
           <div className="text-left space-y-4 text-foreground/90 text-lg leading-relaxed">
             <p>
-              In maart 2026 mochten we Mama Monologen spelen voor twee volledig uitverkochte zalen. Beide heel bijzondere voorstellingen. Vanaf de eerste scène was er voelbaar veel herkenning in de zaal: gelach, ontroering, stilte en momenten waarop het publiek zichtbaar geraakt werd. De monoloog op het podium openden niet alleen gesprekken over moederschap, maar ook over twijfel, verbinding, eenzaamheid, verwachtingen en de vele innerlijke stemmen die daarin meespelen.
+              In maart 2026 mochten we Mama Monologen spelen voor twee volledig uitverkochte zalen. Beide heel bijzondere voorstellingen. Vanaf de eerste scène was er voelbaar veel herkenning in de zaal: gelach, ontroering, stilte en momenten waarop het publiek zichtbaar geraakt werd. De monoloog op het podium opende niet alleen gesprekken over moederschap, maar ook over twijfel, verbinding, eenzaamheid, verwachtingen en de vele innerlijke stemmen die daarin meespelen.
             </p>
             <p>
               In het nagesprek ontstonden ontzettend waardevolle momenten. Daar werd gedeeld, gespiegeld en verdiept. Het was indrukwekkend om te zien hoeveel de voorstelling in beweging bracht, niet alleen bij moeders, maar ook bij kinderen, vaders, partners en anderen die zich herkenden in de ervaring van de gelaagdheid van het menszijn.
