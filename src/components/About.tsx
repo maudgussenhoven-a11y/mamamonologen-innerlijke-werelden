@@ -85,9 +85,29 @@ const About = () => {
             MAMA MONOLOGEN neemt je mee in de onzichtbare binnenwereld van moederschap en de universele innerlijke stemmen die daarin doorklinken.
           </p>
           <p className="text-lg font-semibold text-foreground/90 mb-4">Tolhuistuin, Amsterdam Noord</p>
-          <div className="space-y-2 text-foreground/80">
+          <div className="space-y-2 text-foreground/80 mb-8">
             <p>Woensdag 25 maart 20:00 - 21:30 uur</p>
             <p>Zaterdag 28 maart 11:00 - 12:30 uur</p>
+          </div>
+
+          <p className="text-foreground/70 text-base mb-6">Hieronder een paar reacties van het publiek wat het bij hen teweeg heeft gebracht:</p>
+
+          <div className="space-y-5 text-left">
+            <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
+              <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
+                "Door de voorstelling ervaar ik meer acceptatie van de innerlijke stemmen."
+              </p>
+            </blockquote>
+            <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
+              <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
+                "Ik heb ervaren dat ik wat zachter mag zijn naar mezelf toe in het moederschap."
+              </p>
+            </blockquote>
+            <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
+              <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
+                "Als 'kind' krijg ik daardoor een inkijkje in het leven en het interne monoloog van een moeder. Ik sta er wat meer bij stil. Als kind voelt het allemaal wat vanzelfsprekend. Nu realiseerde ik mij hoeveel een moeder zelf ook twijfelt, kritisch is op zichzelf."
+              </p>
+            </blockquote>
           </div>
         </div>
 
