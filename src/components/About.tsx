@@ -72,25 +72,10 @@ const About = () => {
       <div className="container mx-auto px-6 max-w-6xl">
         {/* Speeldata */}
         <div className="text-center mb-16 bg-primary/10 rounded-3xl p-8 md:p-10 border border-primary/20 max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Mamamonologen in Tolhuistuin</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Mama Monologen in Tolhuistuin</h2>
           <p className="text-foreground/90 mb-6 text-lg leading-relaxed">
-            Met veel enthousiasme kondigen wij aan dat MAMA MONOLOGEN in maart te zien is in Tolhuistuin.
-            We spelen in het knusse{" "}
-            <a href="https://tolhuistuin.nl/evenementen/mamamonologen/0" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">
-              Tuinhuis
-            </a>
-            , een plek die perfect past bij de intimiteit en gelaagdheid van deze theatrale sessie.
+            In maart hebben we voor twee uitverkochte zalen gespeeld. Er was veel herkenning, ontroerde mensen en door het nagesprek waren we in staat de diepte op te zoeken. Hieronder een paar reacties van wat Mama Monologen bij het publiek teweeg heeft gebracht.
           </p>
-          <p className="text-foreground/90 mb-6 text-lg leading-relaxed">
-            MAMA MONOLOGEN neemt je mee in de onzichtbare binnenwereld van moederschap en de universele innerlijke stemmen die daarin doorklinken.
-          </p>
-          <p className="text-lg font-semibold text-foreground/90 mb-4">Tolhuistuin, Amsterdam Noord</p>
-          <div className="space-y-2 text-foreground/80 mb-8">
-            <p>Woensdag 25 maart 20:00 - 21:30 uur</p>
-            <p>Zaterdag 28 maart 11:00 - 12:30 uur</p>
-          </div>
-
-          <p className="text-foreground/70 text-base mb-6">Hieronder een paar reacties van het publiek wat het bij hen teweeg heeft gebracht:</p>
 
           <div className="space-y-5 text-left">
             <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
