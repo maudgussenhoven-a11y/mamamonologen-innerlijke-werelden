@@ -29,31 +29,8 @@ const Hero = () => {
           Waar we samen de diepte opzoeken.
         </p>
 
-        <div className="flex flex-col items-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <div className="flex flex-col items-center gap-1">
-              <Button 
-                size="lg" 
-                className="bg-primary/50 text-primary-foreground px-8 py-6 text-lg rounded-full shadow-medium cursor-not-allowed opacity-70"
-                disabled
-              >
-                Koop tickets 25 maart
-              </Button>
-              <p className="text-white text-sm font-semibold tracking-wide uppercase drop-shadow-lg">
-                Uitverkocht
-              </p>
-            </div>
-            <Button 
-              asChild
-              size="lg" 
-              className="bg-primary text-primary-foreground px-8 py-6 text-lg rounded-full shadow-medium hover:bg-primary/90"
-            >
-              <a href="https://shop.paylogic.com/f5c0da98404a4cac8f8fad4e527789cd" target="_blank" rel="noopener noreferrer">
-                Koop tickets 28 maart
-              </a>
-            </Button>
-          </div>
-        </div>
+
+
       </div>
 
       {/* Decorative organic shapes 
