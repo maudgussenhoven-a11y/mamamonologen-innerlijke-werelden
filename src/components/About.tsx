@@ -73,11 +73,17 @@ const About = () => {
         {/* Speeldata */}
         <div className="text-center mb-16 bg-primary/10 rounded-3xl p-8 md:p-10 border border-primary/20 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Mama Monologen in Tolhuistuin</h2>
-          <p className="text-foreground/90 mb-6 text-lg leading-relaxed">
-            In maart hebben we voor twee uitverkochte zalen gespeeld. Er was veel herkenning, ontroerde mensen en door het nagesprek waren we in staat de diepte op te zoeken. Hieronder een paar reacties van wat Mama Monologen bij het publiek teweeg heeft gebracht.
-          </p>
+          <div className="text-left space-y-4 text-foreground/90 text-lg leading-relaxed">
+            <p>
+              In maart 2026 mochten we Mama Monologen spelen voor twee volledig uitverkochte zalen. Beide heel bijzondere voorstellingen. Vanaf de eerste scène was er voelbaar veel herkenning in de zaal: gelach, ontroering, stilte en momenten waarop het publiek zichtbaar geraakt werd. De monoloog op het podium openden niet alleen gesprekken over moederschap, maar ook over twijfel, verbinding, eenzaamheid, verwachtingen en de vele innerlijke stemmen die daarin meespelen.
+            </p>
+            <p>
+              In het nagesprek ontstonden ontzettend waardevolle momenten. Daar werd gedeeld, gespiegeld en verdiept. Het was indrukwekkend om te zien hoeveel de voorstelling in beweging bracht, niet alleen bij moeders, maar ook bij kinderen, vaders, partners en anderen die zich herkenden in de ervaring van de gelaagdheid van het menszijn.
+            </p>
+            <p className="font-semibold mt-6">Een paar reacties uit het publiek:</p>
+          </div>
 
-          <div className="space-y-5 text-left">
+          <div className="space-y-5 text-left mt-6">
             <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
               <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
                 "Door de voorstelling ervaar ik meer acceptatie van de innerlijke stemmen."
@@ -90,10 +96,19 @@ const About = () => {
             </blockquote>
             <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
               <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
-                "Als 'kind' krijg ik daardoor een inkijkje in het leven en het interne monoloog van een moeder. Ik sta er wat meer bij stil. Als kind voelt het allemaal wat vanzelfsprekend. Nu realiseerde ik mij hoeveel een moeder zelf ook twijfelt, kritisch is op zichzelf."
+                "Als 'kind' krijg ik hierdoor een inkijkje in het leven en de innerlijke monoloog van een moeder. Ik sta daar nu veel meer bij stil. Als kind voelt het allemaal vanzelfsprekend, maar nu realiseerde ik me hoeveel een moeder zelf ook twijfelt en kritisch kan zijn op zichzelf."
+              </p>
+            </blockquote>
+            <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
+              <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
+                "Ja, dit hebben meer mensen te zien, ik kom nog een keer mee en dan met mijn moeder."
               </p>
             </blockquote>
           </div>
+
+          <p className="text-left text-foreground/90 text-lg leading-relaxed mt-6">
+            Deze reacties bevestigen precies waar Mama Monologen voor staat: ruimte maken voor herkenning, verbinding en emoties. Met als thema moederschap.
+          </p>
         </div>
 
         <div className="text-center mb-16">
