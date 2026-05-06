@@ -70,6 +70,19 @@ const About = () => {
   return (
     <section id="about" className="py-24 pb-12 bg-gradient-subtle">
       <div className="container mx-auto px-6 max-w-6xl">
+        {/* Aankondiging */}
+        <div className="mb-12 max-w-4xl mx-auto bg-gradient-warm rounded-3xl p-8 md:p-10 shadow-medium text-center">
+          <p className="text-sm uppercase tracking-widest font-semibold text-primary-foreground/80 mb-3">
+            Goed nieuws!
+          </p>
+          <h3 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-4">
+            Mama Monologen op woensdag 10 juni
+          </h3>
+          <p className="text-lg text-primary-foreground/95 leading-relaxed">
+            Te zien in Theater De Roode Bioscoop. Houd deze website, onze nieuwsbrief en de socials in de gaten voor tickets!
+          </p>
+        </div>
+
         {/* Speeldata */}
         <div className="text-center mb-16 bg-primary/10 rounded-3xl p-8 md:p-10 border border-primary/20 max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Mama Monologen in Tolhuistuin</h2>
