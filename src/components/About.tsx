@@ -121,8 +121,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div className="space-y-6 text-lg leading-relaxed">
             <p className="text-foreground/90">
-              MAMA MONOLOGEN is een <span className="text-primary">theatraal, intiem en onderzoekend</span> project 
-              dat de gelaagdheid van moederschap zichtbaar maakt. Het is geen traditionele voorstelling, maar een combinatie 
+              MAMA MONOLOGEN is een <span className="text-primary">intieme voorstelling</span> dat de gelaagdheid van moederschap zichtbaar maakt. Het is geen traditionele voorstelling, maar een combinatie 
               van monoloog, embodiment, innerlijke stemmen en interactie met het publiek.
             </p>
             <p className="text-foreground/90">
