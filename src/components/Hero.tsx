@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image.jpg";
 import bannerImage from "@/assets/mama-monologen-banner.jpg";
 
 const Hero = () => {
@@ -8,11 +7,11 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img 
-          src={heroImage} 
-          alt="MAMA MONOLOGEN - Innerlijke stemmen van moederschap"
+          src={bannerImage} 
+          alt="MAMA MONOLOGEN - Maud Gussenhoven"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/50" />
       </div>
 
       {/* Content */}
@@ -29,21 +28,8 @@ const Hero = () => {
           Waar innerlijke stemmen gehoord worden. Waar tegenstellingen mogen bestaan. 
           Waar we samen de diepte opzoeken.
         </p>
-
-        <div className="mt-8 max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-medium animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
-          <img
-            src={bannerImage}
-            alt="MAMA MONOLOGEN - Maud Gussenhoven"
-            className="w-full h-auto"
-          />
-        </div>
-
       </div>
-
-      {/* Decorative organic shapes 
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background to-transparent" />
-    */}
-      </section>
+    </section>
   );
 };
 
