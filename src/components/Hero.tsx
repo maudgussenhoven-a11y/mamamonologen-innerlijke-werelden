@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
+import bannerImage from "@/assets/mama-monologen-banner.jpg";
 
 const Hero = () => {
   return (
@@ -29,7 +30,13 @@ const Hero = () => {
           Waar we samen de diepte opzoeken.
         </p>
 
-
+        <div className="mt-8 max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-medium animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
+          <img
+            src={bannerImage}
+            alt="MAMA MONOLOGEN - Maud Gussenhoven"
+            className="w-full h-auto"
+          />
+        </div>
 
       </div>
 
