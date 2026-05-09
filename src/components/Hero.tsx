@@ -28,21 +28,6 @@ const Hero = () => {
           Waar innerlijke stemmen gehoord worden. Waar tegenstellingen mogen bestaan. 
           Waar we samen de diepte opzoeken.
         </p>
-
-        {/* Nieuws banner */}
-        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
-          <p className="text-lg md:text-xl text-white font-medium mb-4">
-            YES! Mama Monologen staat op woensdag 10 juni 20:00 uur in de Roode Bioscoop.
-          </p>
-          <Button 
-            asChild
-            className="bg-[hsl(12_65%_55%)] hover:bg-[hsl(12_65%_45%)] text-white font-medium px-8 py-3 rounded-full text-base transition-all"
-          >
-            <a href="https://www.roodebioscoop.nl/mamamonologen#vdmorder" target="_blank" rel="noopener noreferrer">
-              Koop tickets
-            </a>
-          </Button>
-        </div>
       </div>
     </section>
   );

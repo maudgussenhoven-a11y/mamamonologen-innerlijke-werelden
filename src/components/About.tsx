@@ -76,11 +76,16 @@ const About = () => {
             Goed nieuws!
           </p>
           <h3 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-4">
-            Mama Monologen op woensdag 10 juni
+            YES! Mama Monologen staat op woensdag 10 juni 20:00 uur in de Roode Bioscoop.
           </h3>
-          <p className="text-lg text-primary-foreground/95 leading-relaxed">
-            Te zien in Theater De Roode Bioscoop. Houd deze website, onze nieuwsbrief en de socials in de gaten voor tickets!
-          </p>
+          <Button 
+            asChild
+            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-medium px-8 py-3 rounded-full text-base transition-all mt-2"
+          >
+            <a href="https://www.roodebioscoop.nl/mamamonologen#vdmorder" target="_blank" rel="noopener noreferrer">
+              Koop tickets
+            </a>
+          </Button>
         </div>
 
         {/* Speeldata */}
