@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Mail, Phone } from "lucide-react";
-import productsPhoto from "@/assets/products-photo.jpg";
+import productsPhoto from "@/assets/mamamonologen-voorstelling.jpg.asset.json";
 
 interface Product {
   title: string;
@@ -77,7 +77,7 @@ const Products = () => {
             <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full mb-12" />
             <div className="relative rounded-2xl overflow-hidden shadow-medium max-w-2xl mx-auto">
               <img 
-                src={productsPhoto} 
+                src={productsPhoto.url} 
                 alt="MAMA MONOLOGEN sessie in actie" 
                 className="w-full h-auto object-cover"
               />
