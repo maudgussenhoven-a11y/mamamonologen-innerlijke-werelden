@@ -8,10 +8,12 @@ import ForWho from "@/components/ForWho";
 import Team from "@/components/Team";
 import Reviews from "@/components/Reviews";
 import Footer from "@/components/Footer";
+import TicketsPopup from "@/components/TicketsPopup";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <TicketsPopup />
       <Hero />
       <Retrospective />
       <About />
