@@ -1,90 +1,105 @@
-import forWhoPhoto from '@/assets/forwho-photo.jpg';
+import forWhoPhoto from "@/assets/forwho-photo.jpg";
+import Reveal from "@/components/Reveal";
 
 const ForWho = () => {
   const audiences = [
     {
       title: "Ouders",
       description: "Moeders, vaders en ouders in elke fase van hun reis",
-      gradient: "from-primary/20 to-primary/10"
     },
     {
       title: "Professionals",
-      description: "In zorg, onderwijs, hulpverlening of welzijn die dieper willen begrijpen",
-      gradient: "from-secondary/30 to-secondary/20"
+      description:
+        "In zorg, onderwijs, hulpverlening of welzijn die dieper willen begrijpen",
     },
     {
       title: "Theaterpubliek",
       description: "Die houdt van kwetsbaar, interdisciplinair en authentiek werk",
-      gradient: "from-primary/15 to-accent/15"
     },
     {
       title: "Zelfontdekkers",
-      description: "Iedereen die zichzelf beter wil begrijpen en innerlijk wil groeien",
-      gradient: "from-accent/15 to-primary/15"
-    }
+      description:
+        "Iedereen die zichzelf beter wil begrijpen en innerlijk wil groeien",
+    },
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-muted/30 to-background">
-      <div className="container mx-auto px-6 max-w-6xl">
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div className="relative rounded-2xl overflow-hidden shadow-medium max-w-sm mx-auto lg:mx-0">
-            <img 
-              src={forWhoPhoto} 
-              alt="Intiem moment van verbinding" 
-              className="w-full h-auto object-cover"
-            />
-          </div>
-          <div className="text-center lg:text-left">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
+    <section className="section bg-background">
+      <div className="container-tight">
+        <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-16">
+          <Reveal className="lg:col-span-5">
+            <div className="overflow-hidden rounded-md shadow-medium">
+              <img
+                src={forWhoPhoto}
+                alt="Intiem moment van verbinding"
+                className="h-full w-full object-cover"
+              />
+            </div>
+          </Reveal>
+          <Reveal className="lg:col-span-7" delay={120}>
+            <p className="eyebrow mb-5">Voor wie</p>
+            <h2 className="display text-4xl text-foreground md:text-5xl lg:text-6xl">
               Voor wie is het?
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl">
-              Deze ervaring spreekt tot iedereen die op zoek is naar verbinding, 
-              erkenning en diepgang
+            <p className="mt-6 max-w-xl text-lg text-muted-foreground">
+              Deze ervaring spreekt tot iedereen die op zoek is naar verbinding,
+              erkenning en diepgang.
             </p>
-            <div className="w-24 h-1 bg-gradient-warm rounded-full mt-6 mx-auto lg:mx-0" />
-          </div>
-        </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {audiences.map((audience, index) => (
-            <div
-              key={index}
-              className={`relative overflow-hidden rounded-2xl p-8 bg-gradient-to-br ${audience.gradient} border border-border/50 hover:border-primary/50 transition-smooth group`}
-            >
-              <div className="relative z-10">
-                <h3 className="text-2xl mb-3 text-foreground group-hover:text-primary transition-smooth">
-                  {audience.title}
-                </h3>
-                <p className="text-foreground/80 leading-relaxed">
-                  {audience.description}
-                </p>
-              </div>
-              
-              {/* Hover effect */}
-              <div className="absolute inset-0 bg-gradient-warm opacity-0 group-hover:opacity-5 transition-smooth" />
+            <div className="mt-10 grid gap-x-8 gap-y-8 sm:grid-cols-2">
+              {audiences.map((audience, index) => (
+                <div
+                  key={audience.title}
+                  className={`border-l-2 pl-5 ${
+                    index % 2 === 0 ? "border-primary/50" : "border-accent/50"
+                  }`}
+                >
+                  <h3 className="display text-xl text-foreground">
+                    {audience.title}
+                  </h3>
+                  <p className="mt-2 leading-relaxed text-muted-foreground">
+                    {audience.description}
+                  </p>
+                </div>
+              ))}
             </div>
-          ))}
+          </Reveal>
         </div>
 
-        {/* Session info box */}
-        <div className="mt-16 bg-card rounded-3xl p-8 md:p-12 shadow-medium border border-primary/20">
-          <div>
-            <h3 className="text-3xl mb-4 text-foreground">De theatrale sessie</h3>
-            <div className="space-y-3 text-lg text-foreground/90 leading-relaxed">
-              <p>Een intieme bijeenkomst van <span className="text-primary">1,5–2 uur</span> waarin:</p>
-              <ul className="space-y-2 ml-6 list-disc list-outside">
-                <li>Innerlijke moeders tot leven worden gebracht</li>
-                <li>Deelnemers worden uitgenodigd hun eigen stem te ontmoeten</li>
-                <li>Ruimte is voor reflectie, herkenning en uitwisseling</li>
+        {/* Session info */}
+        <Reveal className="mt-16 rounded-lg border border-border bg-card p-8 shadow-soft md:mt-20 md:p-12">
+          <div className="grid gap-8 md:grid-cols-3 md:gap-12">
+            <div>
+              <p className="eyebrow mb-4">In de praktijk</p>
+              <h3 className="display text-2xl text-foreground md:text-3xl">
+                De theatrale sessie
+              </h3>
+            </div>
+            <div className="space-y-3 text-lg leading-relaxed text-foreground/85 md:col-span-2">
+              <p>
+                Een intieme bijeenkomst van{" "}
+                <span className="font-medium text-primary">1,5–2 uur</span>{" "}
+                waarin:
+              </p>
+              <ul className="space-y-2">
+                {[
+                  "Innerlijke moeders tot leven worden gebracht",
+                  "Deelnemers worden uitgenodigd hun eigen stem te ontmoeten",
+                  "Ruimte is voor reflectie, herkenning en uitwisseling",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary" />
+                    <span>{item}</span>
+                  </li>
+                ))}
               </ul>
-              <p className="pt-3 text-muted-foreground italic">
-                Deze vorm is laagdrempelig, diepgaand en geschikt voor groepen van 15–100 mensen
+              <p className="pt-2 italic text-muted-foreground">
+                Deze vorm is laagdrempelig, diepgaand en geschikt voor groepen van
+                15–100 mensen.
               </p>
             </div>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

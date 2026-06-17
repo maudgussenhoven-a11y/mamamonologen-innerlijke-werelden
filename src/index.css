@@ -1,101 +1,101 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Inter:wght@300..700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    /* Warm, organic palette for Mamamonologen */
-    --background: 32 45% 97%;
-    --foreground: 25 25% 25%;
+    /* Neon-on-dark palette for Mamamonologen — hot pink + electric green */
+    --background: 265 30% 7%;
+    --foreground: 300 18% 96%;
 
-    --card: 32 60% 98%;
-    --card-foreground: 25 25% 25%;
+    --card: 265 26% 11%;
+    --card-foreground: 300 18% 96%;
 
-    --popover: 32 60% 98%;
-    --popover-foreground: 25 25% 25%;
+    --popover: 265 26% 11%;
+    --popover-foreground: 300 18% 96%;
 
-    /* Terracotta primary */
-    --primary: 12 65% 55%;
-    --primary-foreground: 32 45% 97%;
+    /* Neon pink primary */
+    --primary: 327 96% 61%;
+    --primary-foreground: 265 45% 7%;
 
-    /* Soft rose secondary */
-    --secondary: 345 55% 88%;
-    --secondary-foreground: 25 35% 30%;
+    /* Muted violet secondary (subtle section banding) */
+    --secondary: 265 24% 16%;
+    --secondary-foreground: 300 16% 92%;
 
-    /* Warm muted tones */
-    --muted: 32 35% 92%;
-    --muted-foreground: 25 15% 50%;
+    --muted: 265 18% 15%;
+    --muted-foreground: 285 14% 68%;
 
-    /* Deep accent for depth */
-    --accent: 260 40% 45%;
-    --accent-foreground: 32 45% 97%;
+    /* Electric green accent */
+    --accent: 146 90% 52%;
+    --accent-foreground: 150 65% 6%;
 
-    --destructive: 0 70% 50%;
-    --destructive-foreground: 32 45% 97%;
+    /* Ink — deep near-black panels */
+    --ink: 270 38% 4%;
+    --ink-foreground: 300 18% 96%;
 
-    --border: 32 25% 88%;
-    --input: 32 25% 90%;
-    --ring: 12 65% 55%;
+    --destructive: 0 80% 58%;
+    --destructive-foreground: 300 18% 96%;
 
-    --radius: 1rem;
+    --border: 280 22% 22%;
+    --input: 280 22% 20%;
+    --ring: 327 96% 61%;
+
+    --radius: 0.5rem;
 
     /* Custom design tokens */
     --gradient-warm: linear-gradient(
       135deg,
-      hsl(12 65% 55%) 0%,
-      hsl(345 55% 65%) 100%
+      hsl(327 96% 61%) 0%,
+      hsl(146 90% 52%) 100%
     );
-    --gradient-depth: linear-gradient(
-      180deg,
-      hsl(260 40% 45%) 0%,
-      hsl(12 65% 55%) 100%
-    );
-    --gradient-subtle: linear-gradient(
-      to bottom,
-      hsl(32 45% 97%) 0%,
-      hsl(32 35% 95%) 100%
-    );
+    --shadow-soft: 0 0 40px -8px hsl(327 96% 61% / 0.35),
+      0 18px 50px -24px hsl(270 60% 2% / 0.7);
+    --shadow-medium: 0 0 60px -10px hsl(327 96% 61% / 0.4),
+      0 0 90px -20px hsl(146 90% 52% / 0.25),
+      0 30px 70px -28px hsl(270 60% 2% / 0.8);
+    --glow-pink: 0 0 24px -2px hsl(327 96% 61% / 0.55);
+    --glow-green: 0 0 24px -2px hsl(146 90% 52% / 0.55);
 
-    --shadow-soft: 0 10px 40px -10px hsl(12 65% 55% / 0.15);
-    --shadow-medium: 0 20px 60px -15px hsl(12 65% 55% / 0.25);
-
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.45s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
   .dark {
-    --background: 25 30% 12%;
-    --foreground: 32 45% 95%;
+    --background: 265 30% 6%;
+    --foreground: 300 18% 96%;
 
-    --card: 25 30% 15%;
-    --card-foreground: 32 45% 95%;
+    --card: 265 26% 10%;
+    --card-foreground: 300 18% 96%;
 
-    --popover: 25 30% 15%;
-    --popover-foreground: 32 45% 95%;
+    --popover: 265 26% 10%;
+    --popover-foreground: 300 18% 96%;
 
-    --primary: 12 70% 60%;
-    --primary-foreground: 25 30% 12%;
+    --primary: 327 96% 63%;
+    --primary-foreground: 265 45% 6%;
 
-    --secondary: 345 45% 30%;
-    --secondary-foreground: 32 45% 95%;
+    --secondary: 265 24% 15%;
+    --secondary-foreground: 300 16% 92%;
 
-    --muted: 25 20% 20%;
-    --muted-foreground: 32 20% 65%;
+    --muted: 265 18% 14%;
+    --muted-foreground: 285 14% 68%;
 
-    --accent: 260 45% 55%;
-    --accent-foreground: 32 45% 95%;
+    --accent: 146 90% 54%;
+    --accent-foreground: 150 65% 6%;
 
-    --destructive: 0 70% 50%;
-    --destructive-foreground: 32 45% 95%;
+    --ink: 270 38% 3%;
+    --ink-foreground: 300 18% 96%;
 
-    --border: 25 20% 25%;
-    --input: 25 20% 25%;
-    --ring: 12 70% 60%;
+    --destructive: 0 80% 58%;
+    --destructive-foreground: 300 18% 96%;
+
+    --border: 280 22% 20%;
+    --input: 280 22% 18%;
+    --ring: 327 96% 63%;
   }
 }
 
@@ -104,19 +104,22 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
-  /*here's a list of fonts you can use without an import
-  
-    - serif: Tinos, Times New Roman, serif
-    - sans-serif: Arial, Helvetica, sans-serif
-    - monospace: Courier New, monospace
-
-  */
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Georgia", serif;
+    font-family: "Alegreya", Georgia, serif;
     font-weight: 400;
     font-style: normal;
+  }
+
+  /* Offset anchored sections so the fixed nav doesn't cover headings */
+  section[id] {
+    scroll-margin-top: 5rem;
   }
 
   h1,
@@ -125,9 +128,94 @@ All colors MUST be HSL.
   h4,
   h5,
   h6 {
-    font-family: "Alegreya", serif;
+    font-family: "Alegreya", Georgia, serif;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    background: hsl(327 96% 61% / 0.3);
+    color: hsl(300 18% 98%);
+  }
+}
+
+@layer components {
+  /* Small uppercase tracked label used as section eyebrow */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.22em] text-primary;
+    font-family: "Inter", sans-serif;
+  }
+
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-8 bg-primary/60;
+  }
+
+  /* Sans for UI bits: nav, buttons, labels, captions */
+  .font-ui {
+    font-family: "Inter", sans-serif;
+  }
+
+  /* Consistent section vertical rhythm */
+  .section {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+
+  .container-tight {
+    @apply mx-auto w-full max-w-6xl px-6 md:px-10;
+  }
+
+  .container-prose {
+    @apply mx-auto w-full max-w-3xl px-6 md:px-10;
+  }
+
+  /* Editorial display heading */
+  .display {
+    @apply font-medium leading-[1.04] tracking-tight;
+  }
+
+  /* Neon glow helpers */
+  .glow-pink {
+    box-shadow: var(--glow-pink);
+  }
+
+  .glow-green {
+    box-shadow: var(--glow-green);
+  }
+
+  .text-glow-pink {
+    text-shadow: 0 0 18px hsl(327 96% 61% / 0.55);
+  }
+
+  .text-glow-green {
+    text-shadow: 0 0 18px hsl(146 90% 52% / 0.5);
+  }
+}
+
+@layer utilities {
+  /* Reveal-on-scroll */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+    html {
+      scroll-behavior: auto;
+    }
   }
 }

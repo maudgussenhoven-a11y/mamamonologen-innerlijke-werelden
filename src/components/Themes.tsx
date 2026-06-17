@@ -1,55 +1,58 @@
+import Reveal from "@/components/Reveal";
+
 const Themes = () => {
   const themes = [
     {
       title: "Polariteiten",
-      description: "De tegenstellende stemmen die in ons allemaal leven"
+      description: "De tegenstellende stemmen die in ons allemaal leven",
     },
     {
       title: "De innerlijke criticus",
-      description: "Een harde kant die we allemaal kennen"
+      description: "Een harde kant die we allemaal kennen",
     },
     {
       title: "Mythische dimensie",
-      description: "De archetypische kracht die in ons allen leeft"
+      description: "De archetypische kracht die in ons allen leeft",
     },
     {
       title: "Transformatie",
-      description: "Door bewustzijn en verbinding ontstaat verandering"
-    }
+      description: "Door bewustzijn en verbinding ontstaat verandering",
+    },
   ];
 
   return (
-    <section className="py-24 bg-background relative overflow-hidden">
-      {/* Decorative elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
-      
-      <div className="container mx-auto px-6 max-w-6xl relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
-            Thema's die centraal staan
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Deze thema's zijn geworteld in moederschap, maar herkenbaar voor iedereen 
-            die leeft in relatie met anderen
-          </p>
-          <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full mt-6" />
+    <section id="themes" className="section bg-secondary/40">
+      <div className="container-tight">
+        <div className="max-w-2xl">
+          <Reveal>
+            <p className="eyebrow mb-5">De kern</p>
+            <h2 className="display text-4xl text-foreground md:text-5xl lg:text-6xl">
+              Thema's die centraal staan
+            </h2>
+            <p className="mt-6 text-lg text-muted-foreground">
+              Deze thema's zijn geworteld in moederschap, maar herkenbaar voor
+              iedereen die leeft in relatie met anderen.
+            </p>
+          </Reveal>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="mt-14 border-t border-border md:mt-20">
           {themes.map((theme, index) => (
-            <div 
-              key={index}
-              className="group bg-card rounded-2xl p-8 shadow-soft hover:shadow-medium transition-smooth border border-border/50 hover:border-primary/30"
-              style={{ animationDelay: `${index * 100}ms` }}
+            <Reveal
+              key={theme.title}
+              delay={index * 80}
+              className="group grid items-baseline gap-4 border-b border-border py-8 transition-colors md:grid-cols-12 md:gap-8 md:py-10"
             >
-              <h3 className="text-2xl font-semibold mb-3 text-foreground group-hover:text-primary transition-smooth">
+              <span className="font-ui col-span-1 text-sm font-medium tracking-widest text-accent">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              <h3 className="display col-span-4 text-2xl text-foreground transition-colors group-hover:text-primary md:text-3xl">
                 {theme.title}
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="col-span-7 text-lg leading-relaxed text-muted-foreground">
                 {theme.description}
               </p>
-            </div>
+            </Reveal>
           ))}
         </div>
       </div>
