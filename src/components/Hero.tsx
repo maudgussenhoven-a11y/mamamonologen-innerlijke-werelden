@@ -1,4 +1,4 @@
-import headerImage from "@/assets/maud-header.jpg.asset.json";
+import headerImage from "@/assets/maud-roode-bioscoop-header.jpg.asset.json";
 
 const Hero = () => {
   return (

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Mail, Phone } from "lucide-react";
-import productsPhoto from "@/assets/mamamonologen-voorstelling.jpg.asset.json";
+import productsPhoto from "@/assets/voorstelling.jpg.asset.json";
 
 interface Product {
   title: string;

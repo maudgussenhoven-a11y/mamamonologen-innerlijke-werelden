@@ -1,5 +1,5 @@
-import tolhuistuinImg from "@/assets/mama-monologen-tolhuistuin.jpg.asset.json";
-import roodeBioscoopImg from "@/assets/mama-monologen-roode-bioscoop.jpg.asset.json";
+import tolhuistuinImg from "@/assets/tolhuistuin.jpg.asset.json";
+import roodeBioscoopImg from "@/assets/roodebioscoop.jpg.asset.json";
 
 const Retrospective = () => {
   return (
