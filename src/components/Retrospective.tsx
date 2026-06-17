@@ -25,31 +25,6 @@ const Retrospective = () => {
 
           <div className="space-y-5 font-serif text-lg leading-relaxed text-foreground/90">
             <p>
-              We hebben twee keer in Tolhuistuin gespeeld in maart 2026 en in juni 2026 in de Roode Bioscoop. Alle drie uitverkochte zalen en wat zijn wij trots.
-            </p>
-            <p>
-              In maart 2026 mochten we MAMA MONOLOGEN spelen voor twee volledig uitverkochte zalen. Beide heel bijzondere voorstellingen. Vanaf de eerste scène was er voelbaar veel herkenning in de zaal: gelach, ontroering, stilte en momenten waarop het publiek zichtbaar geraakt werd. De monoloog op het podium opende niet alleen gesprekken over moederschap, maar ook over twijfel, verbinding, eenzaamheid, verwachtingen en de vele innerlijke stemmen die daarin meespelen.
-            </p>
-            <p>
-              In het nagesprek ontstonden ontzettend waardevolle momenten. Daar werd gedeeld, gespiegeld en verdiept. Het was indrukwekkend om te zien hoeveel de voorstelling in beweging bracht, niet alleen bij moeders, maar ook bij kinderen, vaders, partners en anderen die zich herkenden in de ervaring van de gelaagdheid van het menszijn.
-            </p>
-            <p>Een paar reacties uit het publiek:</p>
-            <blockquote className="border-l-2 border-primary pl-4 italic font-bold">
-              "Door de voorstelling ervaar ik meer acceptatie van de innerlijke stemmen."
-            </blockquote>
-            <blockquote className="border-l-2 border-primary pl-4 italic font-bold">
-              "Ik heb ervaren dat ik wat zachter mag zijn naar mezelf toe in het moederschap."
-            </blockquote>
-            <blockquote className="border-l-2 border-primary pl-4 italic font-bold">
-              "Als 'kind' krijg ik hierdoor een inkijkje in het leven en de innerlijke monoloog van een moeder. Ik sta daar nu veel meer bij stil. Als kind voelt het allemaal vanzelfsprekend, maar nu realiseerde ik me hoeveel een moeder zelf ook twijfelt en kritisch kan zijn op zichzelf."
-            </blockquote>
-            <blockquote className="border-l-2 border-primary pl-4 italic font-bold">
-              "Ja, dit hebben meer mensen te zien, ik kom nog een keer mee en dan met mijn moeder."
-            </blockquote>
-            <p>
-              Deze reacties bevestigen precies waar MAMA MONOLOGEN voor staat: ruimte maken voor herkenning, verbinding en emoties. Met als thema moederschap, maar raakt eigenlijk de gehele gelaagdheid van de mens.
-            </p>
-            <p>
               We speelden in Tolhuistuin en in de Roode Bioscoop. Twee totaal verschillende locaties en ook echt andere ervaringen. Wat me iedere keer weer raakt, is wat er gebeurt nadat de monoloog is afgelopen. Tijdens de voorstelling zet ik de deur open naar mijn eigen innerlijke wereld. Naar de tegenstrijdigheden, de liefde, de frustratie en alles daartussenin. En vervolgens zie ik hoe mensen die deur ook een stukje naar zichzelf openen.
             </p>
             <p>
