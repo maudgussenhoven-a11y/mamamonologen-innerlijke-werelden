@@ -8,7 +8,7 @@ const Hero = () => {
         <img 
           src={headerImage}
           alt="MAMA MONOLOGEN - Maud Gussenhoven"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-[78%_center]"
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>

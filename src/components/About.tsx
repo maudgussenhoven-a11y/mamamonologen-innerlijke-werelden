@@ -1,5 +1,5 @@
 import { useState } from "react";
-import aboutPhoto from "@/assets/about-photo.jpg";
+import stylizedPhoto from "@/assets/hero-image-stylized.jpg";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
@@ -70,65 +70,6 @@ const About = () => {
   return (
     <section id="about" className="py-24 pb-12 bg-gradient-subtle">
       <div className="container mx-auto px-6 max-w-6xl">
-        {/* Aankondiging */}
-        <div className="mb-12 max-w-4xl mx-auto bg-gradient-warm rounded-3xl p-8 md:p-10 shadow-medium text-center">
-          <p className="text-sm uppercase tracking-widest font-semibold text-primary-foreground/80 mb-3">
-            Goed nieuws!
-          </p>
-          <h3 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-4">
-            YES! Mama Monologen staat op woensdag 10 juni 20:00 uur in de Roode Bioscoop.
-          </h3>
-          <Button 
-            asChild
-            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-medium px-8 py-3 rounded-full text-base transition-all mt-2"
-          >
-            <a href="https://www.roodebioscoop.nl/mamamonologen#vdmorder" target="_blank" rel="noopener noreferrer">
-              Koop tickets
-            </a>
-          </Button>
-        </div>
-
-        {/* Speeldata */}
-        <div className="text-center mb-16 bg-primary/10 rounded-3xl p-8 md:p-10 border border-primary/20 max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Mama Monologen in Tolhuistuin</h2>
-          <div className="text-left space-y-4 text-foreground/90 text-lg leading-relaxed">
-            <p>
-              In maart 2026 mochten we Mama Monologen spelen voor twee volledig uitverkochte zalen. Beide heel bijzondere voorstellingen. Vanaf de eerste scène was er voelbaar veel herkenning in de zaal: gelach, ontroering, stilte en momenten waarop het publiek zichtbaar geraakt werd. De monoloog op het podium opende niet alleen gesprekken over moederschap, maar ook over twijfel, verbinding, eenzaamheid, verwachtingen en de vele innerlijke stemmen die daarin meespelen.
-            </p>
-            <p>
-              In het nagesprek ontstonden ontzettend waardevolle momenten. Daar werd gedeeld, gespiegeld en verdiept. Het was indrukwekkend om te zien hoeveel de voorstelling in beweging bracht, niet alleen bij moeders, maar ook bij kinderen, vaders, partners en anderen die zich herkenden in de ervaring van de gelaagdheid van het menszijn.
-            </p>
-            <p className="font-semibold mt-6">Een paar reacties uit het publiek:</p>
-          </div>
-
-          <div className="space-y-5 text-left mt-6">
-            <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
-              <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
-                "Door de voorstelling ervaar ik meer acceptatie van de innerlijke stemmen."
-              </p>
-            </blockquote>
-            <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
-              <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
-                "Ik heb ervaren dat ik wat zachter mag zijn naar mezelf toe in het moederschap."
-              </p>
-            </blockquote>
-            <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
-              <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
-                "Als 'kind' krijg ik hierdoor een inkijkje in het leven en de innerlijke monoloog van een moeder. Ik sta daar nu veel meer bij stil. Als kind voelt het allemaal vanzelfsprekend, maar nu realiseerde ik me hoeveel een moeder zelf ook twijfelt en kritisch kan zijn op zichzelf."
-              </p>
-            </blockquote>
-            <blockquote className="border-l-2 border-primary/40 pl-5 py-1">
-              <p className="font-display text-lg italic text-foreground/85 leading-relaxed">
-                "Ja, dit hebben meer mensen te zien, ik kom nog een keer mee en dan met mijn moeder."
-              </p>
-            </blockquote>
-          </div>
-
-          <p className="text-left text-foreground/90 text-lg leading-relaxed mt-6">
-            Deze reacties bevestigen precies waar Mama Monologen voor staat: ruimte maken voor herkenning, verbinding en emoties. Met als thema moederschap, maar raakt eigenlijk de gehele gelaagdheid van de mens.
-          </p>
-        </div>
-
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
             Wat is MAMA MONOLOGEN?
@@ -156,7 +97,7 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square rounded-3xl shadow-medium overflow-hidden">
               <img 
-                src={aboutPhoto} 
+                src={stylizedPhoto} 
                 alt="MAMA MONOLOGEN portret" 
                 className="w-full h-full object-cover"
               />

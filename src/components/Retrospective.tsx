@@ -7,18 +7,18 @@ const Retrospective = () => {
       <div className="max-w-4xl mx-auto">
         <div className="bg-card border border-border rounded-lg p-8 md:p-12 shadow-sm">
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8 text-center">
-            MAMA MONOLOGEN in Tolhuistuin en in de Roode Bioscoop
+           Mama Monologen in Amsterdam
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6 mb-10">
             <img
               src={tolhuistuinImg}
-              alt="MAMA MONOLOGEN in Tolhuistuin"
+              alt="Mama Monologen in Amsterdam"
               className="w-full h-72 object-cover rounded-md"
             />
             <img
               src={roodeBioscoopImg}
-              alt="MAMA MONOLOGEN in de Roode Bioscoop"
+              alt="Mama Monologen in Amsterdam"
               className="w-full h-72 object-cover rounded-md"
             />
           </div>
