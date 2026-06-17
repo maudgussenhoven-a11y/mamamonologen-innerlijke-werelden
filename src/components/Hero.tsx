@@ -1,4 +1,4 @@
-import headerImage from "@/assets/maud-roode-bioscoop-header.jpg.asset.json";
+import headerImage from "@/assets/maud-roode-bioscoop-header.jpg";
 
 const Hero = () => {
   return (
@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img 
-          src={headerImage.url} 
+          src={headerImage}
           alt="MAMA MONOLOGEN - Maud Gussenhoven"
           className="w-full h-full object-cover"
         />

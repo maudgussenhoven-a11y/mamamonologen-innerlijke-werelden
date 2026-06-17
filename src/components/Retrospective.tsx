@@ -1,5 +1,5 @@
-import tolhuistuinImg from "@/assets/tolhuistuin.jpg.asset.json";
-import roodeBioscoopImg from "@/assets/roodebioscoop.jpg.asset.json";
+import tolhuistuinImg from "@/assets/tolhuistuin.jpg";
+import roodeBioscoopImg from "@/assets/roodebioscoop.jpg";
 
 const Retrospective = () => {
   return (
@@ -12,12 +12,12 @@ const Retrospective = () => {
 
           <div className="grid md:grid-cols-2 gap-6 mb-10">
             <img
-              src={tolhuistuinImg.url}
+              src={tolhuistuinImg}
               alt="MAMA MONOLOGEN in Tolhuistuin"
               className="w-full h-72 object-cover rounded-md"
             />
             <img
-              src={roodeBioscoopImg.url}
+              src={roodeBioscoopImg}
               alt="MAMA MONOLOGEN in de Roode Bioscoop"
               className="w-full h-72 object-cover rounded-md"
             />
