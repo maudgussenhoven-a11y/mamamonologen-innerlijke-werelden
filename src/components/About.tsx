@@ -1,9 +1,4 @@
-import { useState } from "react";
 import stylizedPhoto from "@/assets/hero-image-stylized.jpg";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { useToast } from "@/hooks/use-toast";
-import { Mail } from "lucide-react";
 const NewsletterForm = () => {
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false);
