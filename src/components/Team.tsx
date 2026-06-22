@@ -1,6 +1,5 @@
 import maudPortrait from "@/assets/maud-photo.jpg";
 import mariekePhoto from "@/assets/marieke-photo.jpg";
-import sophiePhoto from "@/assets/sophie-photo.jpg";
 import yinskePhoto from "@/assets/yinske-photo.jpg";
 
 const teamMembers = [
