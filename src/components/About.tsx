@@ -36,18 +36,6 @@ const About = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-
-            {/* Newsletter compact box */}
-            <div className="mt-8 bg-primary/10 rounded-2xl p-6 border border-primary/20">
-              <div className="flex items-center gap-3 mb-3">
-                <Mail className="w-5 h-5 text-primary" />
-                <h4 className="font-semibold text-foreground">Op de hoogte blijven?</h4>
-              </div>
-              <p className="text-sm text-foreground/70 mb-4">
-                Meld je aan voor de nieuwsbrief
-              </p>
-              <NewsletterForm />
-            </div>
           </div>
         </div>
 
