@@ -1,3 +1,4 @@
+import annaPhoto from "@/assets/anna-weiss.png";
 import maudPortrait from "@/assets/maud-photo.jpg";
 import mariekePhoto from "@/assets/marieke-photo.jpg";
 import yinskePhoto from "@/assets/yinske-photo.jpg";
@@ -35,6 +36,16 @@ const teamMembers = [
     quote: "Wat mij raakt aan MAMA MONOLOGEN, is dat er een ruimte geschept wordt waarin we delen van onszelf tonen die vaak onbespreekbaar zijn. Waardoor we in alle kleinschalige intimiteit kunst gebruiken om samen te kunnen zijn in iets dat vaak als eenzaam wordt ervaren.",
     image: mariekePhoto,
     tag: "Dramaturg"
+  },
+  {
+    name: "Anna Weiss",
+    role: "Organisatie en publieksontwikkeling",
+    description: [
+      "Anna is vanaf de allereerste try-out betrokken bij Mama Monologen en inmiddels een onmisbare kracht binnen het team. Als echte duizendpoot houdt zij zich bezig met alles wat nodig is om de voorstelling te laten groeien: van organisatie en publieksontwikkeling tot het stellen van de juiste vragen op het juiste moment.",
+      "Dankzij haar scherpe blik en praktische ondersteuning krijgen wij de ruimte om ons te richten op de artistieke ontwikkeling van Mama Monologen. Haar betrokkenheid, energie en intentie helpen Mama Monologen steeds verder tot bloei te komen."
+    ],
+    image: annaPhoto,
+    tag: "Organisator & Publieksontwikkelaar"
   },
 ];
 
