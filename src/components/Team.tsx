@@ -1,3 +1,4 @@
+import annaPhoto from "@/assets/anna-weiss.png";
 import maudPortrait from "@/assets/maud-photo.jpg";
 import mariekePhoto from "@/assets/marieke-photo.jpg";
 import yinskePhoto from "@/assets/yinske-photo.jpg";
