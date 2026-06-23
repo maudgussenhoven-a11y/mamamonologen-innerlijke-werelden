@@ -1,7 +1,7 @@
-import maudPhotoAsset from "@/assets/maud-photo.jpg.asset.json";
+import maudPhoto from "@/assets/maud-photo.jpg";
 import annaPhoto from "@/assets/anna-weiss.png";
 import mariekePhoto from "@/assets/marieke-photo.jpg";
-import yinskePhoto from "@/assets/yinske-photo.jpg";
+import yinskePhoto from "@/assets/yinske-team.jpg";
 
 const teamMembers = [
   {
@@ -12,7 +12,7 @@ const teamMembers = [
       "Door haar achtergrond in theater en voice dialogue combineert ze de kracht van acteren met diepgaande innerlijke verkenning. Met MAMA MONOLOGEN creëert ze een plek waar authenticiteit en kwetsbaarheid gevierd worden."
     ],
     quote: "Het erkennen en uitspreken van onze innerlijke stemmen geeft vrijheid: het maakt ons lichter, eerlijker en meer verbonden met onszelf én anderen.",
-    image: maudPhotoAsset.url,
+    image: maudPhoto,
     tag: "Voice Dialogue Practitioner"
   },
   {
