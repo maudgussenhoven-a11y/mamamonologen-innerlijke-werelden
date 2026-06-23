@@ -44,7 +44,7 @@ const teamMembers = [
       "Anna is vanaf de allereerste try-out betrokken bij Mama Monologen en inmiddels een onmisbare kracht binnen het team. Als echte duizendpoot houdt zij zich bezig met alles wat nodig is om de voorstelling te laten groeien: van organisatie en publieksontwikkeling tot het stellen van de juiste vragen op het juiste moment.",
       "Dankzij haar scherpe blik en praktische ondersteuning krijgen wij de ruimte om ons te richten op de artistieke ontwikkeling van Mama Monologen. Haar betrokkenheid, energie en intentie helpen Mama Monologen steeds verder tot bloei te komen."
     ],
-    image: annaPhoto.url,
+    image: annaPhoto,
     tag: "Organisator & Publieksontwikkelaar"
   },
 ];
