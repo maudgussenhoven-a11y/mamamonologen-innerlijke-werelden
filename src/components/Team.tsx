@@ -12,7 +12,7 @@ const teamMembers = [
       "Door haar achtergrond in theater en voice dialogue combineert ze de kracht van acteren met diepgaande innerlijke verkenning. Met MAMA MONOLOGEN creëert ze een plek waar authenticiteit en kwetsbaarheid gevierd worden."
     ],
     quote: "Het erkennen en uitspreken van onze innerlijke stemmen geeft vrijheid: het maakt ons lichter, eerlijker en meer verbonden met onszelf én anderen.",
-    image: maudPortrait,
+    image: maudPhotoAsset.url,
     tag: "Voice Dialogue Practitioner"
   },
   {
