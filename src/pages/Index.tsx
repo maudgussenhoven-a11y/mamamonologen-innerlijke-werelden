@@ -18,6 +18,7 @@ const Index = () => {
       <TicketsPopup />
       <Hero />
       <NewsletterSection />
+      <Agenda />
       <Retrospective />
       <About />
 
