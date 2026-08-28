@@ -5,6 +5,7 @@ interface Show {
   day: string;
   city: string;
   venue: string;
+  type: string;
   ticketUrl?: string;
   ticketLabel?: string;
 }
@@ -15,6 +16,7 @@ const shows: Show[] = [
     day: "Woensdag",
     city: "Amsterdam",
     venue: "Tolhuistuin",
+    type: "Theatervoorstelling",
     ticketUrl: "https://tolhuistuin.nl/evenementen/mamamonologen-3",
   },
   {
@@ -22,6 +24,7 @@ const shows: Show[] = [
     day: "Vrijdag",
     city: "Amsterdam",
     venue: "De Ruimte",
+    type: "Verdiepingsdag",
     ticketLabel: "Binnenkort",
   },
   {
@@ -29,6 +32,7 @@ const shows: Show[] = [
     day: "Vrijdag",
     city: "Winsum",
     venue: "Op Maarhuizen",
+    type: "Theatervoorstelling",
     ticketUrl: "https://opmaarhuizen.nl/mama-monologen",
   },
 ];
@@ -61,6 +65,7 @@ const Agenda = () => {
                   <div>
                     <p className="text-foreground/90 text-lg">{show.city}</p>
                     <p className="text-foreground/60">{show.venue}</p>
+                    <p className="text-primary/80 text-sm mt-1">{show.type}</p>
                   </div>
                 </div>
 
