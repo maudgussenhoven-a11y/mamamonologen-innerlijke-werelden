@@ -65,6 +65,7 @@ const Agenda = () => {
                   <div>
                     <p className="text-foreground/90 text-lg">{show.city}</p>
                     <p className="text-foreground/60">{show.venue}</p>
+                    <p className="text-primary/80 text-sm mt-1">{show.type}</p>
                   </div>
                 </div>
 
