@@ -42,7 +42,7 @@ const Agenda = () => {
             Speellijst
           </h2>
           <p className="text-foreground/70 text-lg">
-            Kom Mama Monologen zien op een van deze voorstellingen.
+            Zie hieronder waar je bij wil zijn.
           </p>
         </div>
 
