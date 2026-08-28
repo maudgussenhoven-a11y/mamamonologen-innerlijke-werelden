@@ -29,7 +29,7 @@ const shows: Show[] = [
     day: "Vrijdag",
     city: "Winsum",
     venue: "Op Maarhuizen",
-    ticketLabel: "Binnenkort",
+    ticketUrl: "https://opmaarhuizen.nl/mama-monologen",
   },
 ];
 
