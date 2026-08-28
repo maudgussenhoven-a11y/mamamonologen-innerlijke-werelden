@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import NewsletterSection from "@/components/NewsletterSection";
+import Agenda from "@/components/Agenda";
 import Retrospective from "@/components/Retrospective";
 import About from "@/components/About";
 import Products from "@/components/Products";
