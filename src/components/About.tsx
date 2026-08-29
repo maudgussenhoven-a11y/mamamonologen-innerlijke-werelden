@@ -6,7 +6,7 @@ const About = () => {
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
-            Wat is MAMA MONOLOGEN?
+            Waarom is Mama Monologen er?
           </h2>
           <div className="w-24 h-1 bg-gradient-warm mx-auto rounded-full" />
         </div>
