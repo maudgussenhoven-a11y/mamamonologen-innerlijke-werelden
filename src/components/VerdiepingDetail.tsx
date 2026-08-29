@@ -19,7 +19,16 @@ const VerdiepingDetail = () => {
             <div className="hidden sm:block w-px bg-border" />
             <div className="text-center">
               <p className="text-sm uppercase tracking-wide text-foreground/60 mb-1">Waar</p>
-              <p className="font-serif text-lg">De Ruimte</p>
+              <p className="font-serif text-lg">
+                <a
+                  href="https://deruimteamsterdam.nl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline underline-offset-4 hover:text-primary/80 transition-smooth"
+                >
+                  De Ruimte
+                </a>
+              </p>
               <p className="font-serif text-lg">Amsterdam</p>
             </div>
             <div className="hidden sm:block w-px bg-border" />
