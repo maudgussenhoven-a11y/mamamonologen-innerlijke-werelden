@@ -49,7 +49,7 @@ const VerdiepingDetail = () => {
               Tijdens De Verdieping maak je kennis met Voice Dialogue en ga je op onderzoek naar je eigen innerlijke stemmen en polariteiten. Welke delen van jezelf ken je goed? Welke stemmen krijgen te weinig ruimte? En wat heb jij nodig om als ouder meer te leven vanuit een plek die bij jou past?
             </p>
             <p>
-              Samen met Yinske begeleid ik een ochtend waarin we de diepte ingaan. We creëren een open, veilige en inspirerende ruimte voor bewustwording en zelfontwikkeling, met een vleugje kunst! Omringd door gelijkgestemden die net zo nieuwsgierig zijn naar hun innerlijke wereld als jij.
+              Samen met Yinske begeleid ik een dag waarin we de diepte ingaan. We creëren een open, veilige en inspirerende ruimte voor bewustwording en zelfontwikkeling, met een vleugje kunst! Omringd door gelijkgestemden die net zo nieuwsgierig zijn naar hun innerlijke wereld als jij.
             </p>
           </div>
 
