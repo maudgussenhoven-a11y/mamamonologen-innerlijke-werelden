@@ -31,7 +31,7 @@ const VerdiepingDetail = () => {
 
           <div className="space-y-5 font-serif text-lg leading-relaxed text-foreground/90">
             <p>
-              Tijdens deze verdiepingsdag krijg je de kans je eigen innerlijke stemmen te ontmoeten — met Voice Dialogue, een krachtige methode uit de transformatiepsychologie. In een kleine groep van 18, in een veilige en oordeelloze sfeer, ontdek je welke innerlijke stemmen jouw leven sturen en hoe je vanuit meer zelfkennis en zelfcompassie kunt kiezen, in plaats van reageren.
+              Tijdens deze verdiepingsdag krijg je de kans je eigen innerlijke stemmen te ontmoeten. We werken daarvoor met Voice Dialogue, een krachtige methode uit de transformatiepsychologie. In een kleine groep van 18, in een veilige en oordeelloze sfeer, ontdek je welke innerlijke stemmen jouw leven sturen en hoe je vanuit meer zelfkennis en zelfcompassie kunt kiezen, in plaats van reageren.
             </p>
             <p>
               Een dag om stil te staan, dieper te kijken en met nieuwe energie verder te gaan.
