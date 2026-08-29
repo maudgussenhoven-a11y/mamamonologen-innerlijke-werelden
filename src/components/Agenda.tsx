@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Info } from "lucide-react";
 
 interface Show {
   date: string;
