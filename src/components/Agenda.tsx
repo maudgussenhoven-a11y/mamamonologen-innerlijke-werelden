@@ -90,9 +90,8 @@ const Agenda = () => {
                   )}
 
                   {show.infoId && (
-                    <Button asChild size="lg" variant="outline" className="w-full md:w-auto">
+                    <Button asChild size="lg" className="w-full md:w-auto">
                       <a href={`#${show.infoId}`}>
-                        <Info className="w-4 h-4 mr-2" />
                         Meer info
                       </a>
                     </Button>
