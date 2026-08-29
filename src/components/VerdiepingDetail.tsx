@@ -22,6 +22,11 @@ const VerdiepingDetail = () => {
               <p className="font-serif text-lg">De Ruimte</p>
               <p className="font-serif text-lg">Amsterdam</p>
             </div>
+            <div className="hidden sm:block w-px bg-border" />
+            <div className="text-center">
+              <p className="text-sm uppercase tracking-wide text-foreground/60 mb-1">Investering</p>
+              <p className="font-serif text-lg">€175</p>
+            </div>
           </div>
 
           <div className="space-y-5 font-serif text-lg leading-relaxed text-foreground/90">
