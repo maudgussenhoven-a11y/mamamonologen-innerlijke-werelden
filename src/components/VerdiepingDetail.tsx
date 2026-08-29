@@ -43,6 +43,22 @@ const VerdiepingDetail = () => {
               Samen met Yinske begeleid ik een ochtend waarin we de diepte ingaan. We creëren een open, veilige en inspirerende ruimte voor bewustwording en zelfontwikkeling, met een vleugje kunst! Omringd door gelijkgestemden die net zo nieuwsgierig zijn naar hun innerlijke wereld als jij.
             </p>
           </div>
+
+          <div className="mt-10 pt-8 border-t border-border text-center">
+            <p className="font-serif text-lg text-foreground/90 mb-3">
+              Tickets zijn nog niet beschikbaar.
+            </p>
+            <p className="text-foreground/80">
+              Wil je je vast aanmelden voor De Verdieping? Stuur dan een mailtje naar{" "}
+              <a
+                href="mailto:maudgussenhoven@gmail.com?subject=Aanmelding%20De%20Verdieping"
+                className="text-primary underline underline-offset-4 hover:text-primary/80 transition-smooth"
+              >
+                maudgussenhoven@gmail.com
+              </a>
+              {" "}— dan zetten we je vast op de lijst.
+            </p>
+          </div>
         </div>
       </div>
     </section>
