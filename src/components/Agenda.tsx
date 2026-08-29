@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Info } from "lucide-react";
 
 interface Show {
   date: string;
@@ -8,6 +9,7 @@ interface Show {
   type: string;
   ticketUrl?: string;
   ticketLabel?: string;
+  infoId?: string;
 }
 
 const shows: Show[] = [
@@ -26,6 +28,7 @@ const shows: Show[] = [
     venue: "De Ruimte",
     type: "Verdiepingsdag",
     ticketLabel: "Binnenkort",
+    infoId: "verdieping",
   },
   {
     date: "13 november",
@@ -69,21 +72,32 @@ const Agenda = () => {
                   </div>
                 </div>
 
-                {show.ticketUrl ? (
-                  <Button asChild size="lg" className="w-full md:w-auto">
-                    <a
-                      href={show.ticketUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Tickets
-                    </a>
-                  </Button>
-                ) : (
-                  <Button disabled size="lg" variant="secondary" className="w-full md:w-auto">
-                    {show.ticketLabel || "Binnenkort"}
-                  </Button>
-                )}
+                <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+                  {show.ticketUrl ? (
+                    <Button asChild size="lg" className="w-full md:w-auto">
+                      <a
+                        href={show.ticketUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Tickets
+                      </a>
+                    </Button>
+                  ) : (
+                    <Button disabled size="lg" variant="secondary" className="w-full md:w-auto">
+                      {show.ticketLabel || "Binnenkort"}
+                    </Button>
+                  )}
+
+                  {show.infoId && (
+                    <Button asChild size="lg" variant="outline" className="w-full md:w-auto">
+                      <a href={`#${show.infoId}`}>
+                        <Info className="w-4 h-4 mr-2" />
+                        Meer info
+                      </a>
+                    </Button>
+                  )}
+                </div>
               </li>
             ))}
           </ul>
