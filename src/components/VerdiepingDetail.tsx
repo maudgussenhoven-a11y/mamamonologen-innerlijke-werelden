@@ -41,16 +41,13 @@ const VerdiepingDetail = () => {
 
           <div className="space-y-5 font-serif text-lg leading-relaxed text-foreground/90">
             <p>
-              Tijdens deze verdiepingsdag krijg je de kans je eigen innerlijke stemmen te ontmoeten. We werken daarvoor met Voice Dialogue, een krachtige methode uit de transformatiepsychologie. In een kleine groep van 18, in een veilige en oordeelloze sfeer, ontdek je welke innerlijke stemmen jouw leven sturen en hoe je vanuit meer zelfkennis en zelfcompassie kunt kiezen, in plaats van reageren.
+              Na de voorstelling Mama Monologen een aantal keer te hebben opgevoerd, organiseren we nu deze verdiepingsdag waarbij we met een groepje van 12 mensen verder aan de slag gaan met Voice Dialogue en de innerlijke stemmen die ons dagelijks leven sturen. Tijdens deze dag krijg je de kans om je eigen innerlijke stemmen te ontmoeten, vanuit verwondering en nieuwsgierigheid. Misschien loop je als ouder wel eens vast in het veelvragende leven, en ben je benieuwd hoe je meer kunt reageren vanuit een innerlijk weten, in plaats van dat het leven je overkomt.
             </p>
             <p>
-              Een dag om stil te staan, dieper te kijken en met nieuwe energie verder te gaan.
+              Tijdens De Verdieping ga je op onderzoek naar je eigen innerlijke stemmen en tegenstellingen. Welke delen van jezelf ken je goed? Welke stemmen krijgen te weinig ruimte? En wat heb jij nodig om als ouder meer te leven vanuit een plek die bij jou past?
             </p>
             <p>
-              Tijdens De Verdieping maak je kennis met Voice Dialogue en ga je op onderzoek naar je eigen innerlijke stemmen en polariteiten. Welke delen van jezelf ken je goed? Welke stemmen krijgen te weinig ruimte? En wat heb jij nodig om als ouder meer te leven vanuit een plek die bij jou past?
-            </p>
-            <p>
-              Samen met Yinske begeleid ik een dag waarin we de diepte ingaan. We creëren een open, veilige en inspirerende ruimte voor bewustwording en zelfontwikkeling, met een vleugje kunst! Omringd door gelijkgestemden die net zo nieuwsgierig zijn naar hun innerlijke wereld als jij.
+              Yinske en Maud begeleiden een dag waarin we de diepte ingaan. We creëren een open, veilige en inspirerende ruimte voor bewustwording en zelfontwikkeling, omringd door gelijkgestemden die net zo nieuwsgierig zijn naar hun innerlijke wereld als jij. Verwacht een dag met lunch, koffie en thee.
             </p>
           </div>
 
