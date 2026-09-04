@@ -42,10 +42,10 @@ const VerdiepingDetail = () => {
 
           <div className="space-y-5 font-serif text-lg leading-relaxed text-foreground/90">
             <p>
-              Na de voorstelling Mama Monologen een aantal keer te hebben opgevoerd, organiseren we nu deze verdiepingsdag waarbij we met een groepje van 16 vrouwen verder aan de slag gaan met Voice Dialogue en de innerlijke stemmen die ons dagelijks leven sturen. Tijdens deze dag krijg je de kans om je eigen innerlijke stemmen te ontmoeten, vanuit verwondering en nieuwsgierigheid. Misschien loop je als ouder wel eens vast in het veelvragende leven, en ben je benieuwd hoe je meer kunt reageren vanuit een innerlijk weten, in plaats van dat het leven je overkomt... DAN ZIEN WE JE DAAR!
+              Na de voorstelling Mama Monologen een aantal keer te hebben opgevoerd, organiseren we nu deze verdiepingsdag waarbij we met een groepje van 16 vrouwen verder aan de slag gaan met Voice Dialogue en de innerlijke stemmen die ons dagelijks leven sturen. Welke delen van jezelf ken je goed? Welke stemmen krijgen te weinig ruimte?
             </p>
             <p>
-              Tijdens De Verdieping ga je op onderzoek naar je eigen innerlijke stemmen en tegenstellingen. Welke delen van jezelf ken je goed? Welke stemmen krijgen te weinig ruimte? En wat heb jij nodig om als ouder meer te leven vanuit een plek die bij jou past?
+              Misschien loop je als ouder wel eens vast in het veelvragende leven, en ben je benieuwd hoe je meer kunt reageren vanuit een innerlijk weten, in plaats van dat het leven je overkomt. En wat heb jij nodig om als ouder meer te leven vanuit een plek die bij jou past?
             </p>
             <p>
               Yinske en Maud begeleiden een dag waarin we de diepte ingaan. We creëren een open, veilige en inspirerende ruimte voor bewustwording en zelfontwikkeling, omringd door gelijkgestemden die net zo nieuwsgierig zijn naar hun innerlijke wereld als jij. Verwacht een dag met lunch, koffie en thee.
