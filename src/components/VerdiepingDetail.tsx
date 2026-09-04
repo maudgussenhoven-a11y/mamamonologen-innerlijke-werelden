@@ -34,8 +34,9 @@ const VerdiepingDetail = () => {
             <div className="hidden sm:block w-px bg-border" />
             <div className="text-center">
               <p className="text-sm uppercase tracking-wide text-foreground/60 mb-1">Investering</p>
-              <p className="font-serif text-lg">€175</p>
-              <p className="text-sm text-primary/80">earlybirdprijs</p>
+              <p className="font-serif text-lg">€145</p>
+              <p className="text-sm text-primary/80">earlybirdprijs tot 20 september</p>
+              <p className="text-sm text-foreground/70">daarna €180</p>
             </div>
           </div>
 
