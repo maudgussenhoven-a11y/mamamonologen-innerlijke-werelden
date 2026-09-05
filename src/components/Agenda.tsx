@@ -26,7 +26,7 @@ const shows: Show[] = [
     city: "Amsterdam",
     venue: "De Ruimte",
     type: "Verdiepingsdag",
-    ticketLabel: "Binnenkort",
+    ticketUrl: "https://buy.stripe.com/4gMaEXcFD0EA0JQ8GP6Zy05",
     infoId: "verdieping",
   },
   {

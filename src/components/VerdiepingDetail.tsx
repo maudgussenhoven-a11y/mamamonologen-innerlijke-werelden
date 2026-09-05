@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 const VerdiepingDetail = () => {
   return (
     <section id="verdieping" className="py-20 px-4 bg-background">
@@ -48,20 +50,20 @@ const VerdiepingDetail = () => {
               Misschien loop je als ouder wel eens vast in het veelvragende leven, en ben je benieuwd hoe je meer kunt reageren vanuit een innerlijk weten, in plaats van dat het leven je overkomt. En wat heb jij nodig om als ouder meer te leven vanuit een plek die bij jou past?
             </p>
             <p>
-              Yinske en Maud begeleiden een dag waarin we de diepte ingaan. We creëren een open, veilige en inspirerende ruimte voor bewustwording en zelfontwikkeling, omringd door gelijkgestemden die net zo nieuwsgierig zijn naar hun innerlijke wereld als jij. Verwacht een dag met lunch, koffie en thee.
+              Yinske en Maud begeleiden een dag waarin we de diepte ingaan. We creëren een open, veilige en inspirerende ruimte voor bewustwording en zelfontwikkeling, omringd door gelijkgestemden die net zo nieuwsgierig zijn naar hun innerlijke wereld als jij. Verwacht een ontspannen dag waar je ook in de watten wordt gelegd met koffie, thee en een fijne lunch.
             </p>
           </div>
 
           <div className="mt-10 pt-8 border-t border-border text-center">
-            <p className="text-foreground/80">
-              Tickets via{" "}
+            <Button asChild size="lg">
               <a
-                href="mailto:maudgussenhoven@gmail.com?subject=Tickets%20De%20Verdieping"
-                className="text-primary underline underline-offset-4 hover:text-primary/80 transition-smooth"
+                href="https://buy.stripe.com/4gMaEXcFD0EA0JQ8GP6Zy05"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                maudgussenhoven@gmail.com
+                Tickets
               </a>
-            </p>
+            </Button>
           </div>
         </div>
       </div>
